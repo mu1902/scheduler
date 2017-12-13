@@ -1,0 +1,58 @@
+body {
+	margin-top: 50px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.my-div-layout1 {
+	padding: 5px;
+}
+
+.my-div-layout2 {
+	margin-bottom: 0px;
+}
+
+.my-alert {
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+.my-chart {
+	padding: 5px;
+}
+
+#menu1 {
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+#menu2 {
+	display: block;
+	float: left;
+}
+
+#menu {
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	transition: opacity 0.3s linear
+}
+
+#content {
+	-webkit-transition: width 0.3s linear;
+	-moz-transition: width 0.3s linear;
+	-o-transition: width 0.3s linear;
+	transition: width 0.3s linear
+}
+
+.font-red-bold{
+	font-weight: bold;
+	color: red;
+}
+
+.font-green-bold{
+	font-weight: bold;
+	color: limegreen;
+}
