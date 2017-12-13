@@ -1,4 +1,5 @@
-exports.jobs = function (obj, callback) {
-    var result = {};
-    callback(result);
+exports.jobs = function (obj, agenda, callback) {
+    agenda.jobs({}, function (err, jobs) {
+        callback(result);
+    });
 };

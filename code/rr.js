@@ -1,3 +1,5 @@
+import { agenda } from "../index";
+
 var url = require("url");
 var fs = require("fs");
 var path = require("path");
@@ -22,7 +24,7 @@ exports.rr = function (req, res, _path) {
 
     var response = function (result, code, file, err) {
         switch (code) {
-            case 400:
+            case 404:
                 res.writeHead(404, { 'Content-Type': 'text/html' });
                 res.end("找不到路径或文件");
                 break;
@@ -53,39 +55,27 @@ exports.rr = function (req, res, _path) {
             });
             req.addListener("end", function () {
                 if (postData == "") {
-                    router[pathname]({}, response);
+                    router[pathname]({}, agenda, response);
                 } else {
                     try {
                         var obj = JSON.parse(postData);
                     } catch (e) {
                         var obj = qs.parse(postData);
                     }
-                    router[pathname](obj, response);
+                    router[pathname](obj, agenda, response);
                 }
             });
         }
     } else {
         //静态文件请求
-        if (!fs.existsSync(realPath) && !fs.existsSync(filePath)) {
-            response(null, 404);
-        } else {
-            if (fs.existsSync(realPath)) {
-                fs.readFile(realPath, "binary", function (err, file) {
-                    if (err) {
-                        response(null, 500, null, err);
-                    } else {
-                        response(null, 200, file);
-                    }
-                });
-            } else {
-                fs.readFile(filePath, "binary", function (err, file) {
-                    if (err) {
-                        response(null, 500, null, err);
-                    } else {
-                        response(null, 200, file);
-                    }
-                });
-            }
+        if (fs.existsSync(realPath)) {
+            fs.readFile(realPath, "binary", function (err, file) {
+                if (err) {
+                    response(null, 500, null, err);
+                } else {
+                    response(null, 200, file);
+                }
+            });
         }
     }
 };
