@@ -1,5 +1,3 @@
-import { agenda } from "../index";
-
 var url = require("url");
 var fs = require("fs");
 var path = require("path");
@@ -8,7 +6,7 @@ var mime = require("./mime").types;
 var config = require("./config").config;
 var router = require("./router").router;
 
-exports.rr = function (req, res, _path) {
+exports.rr = function (req, res, _path, agenda) {
     var postData = "";
     //path = pathname + search
     var pathname = url.parse(req.url).pathname;
