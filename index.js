@@ -1,5 +1,9 @@
 var Agenda = require('agenda')
-var py = require("./python/py").exec;
+var py = require("./python/py").python;
+
+var log4js = require("log4js");
+log4js.configure("./log/config.json");
+var job_log = log4js.getLogger('job');
 
 var mongo = 'mongodb://127.0.0.1:27017/agenda';
 var agenda = new Agenda({ db: { address: mongo } });
@@ -15,29 +19,27 @@ agenda.on('ready', function () {
 });
 
 agenda.on('start', (job) => {
-    console.log('检测到job启动: ', job.attrs.name);
     job.attrs.data["result"] = "";
+    job_log.info('job启动: ', job.attrs.name, "时间", job.attrs.lastRunAt);
 })
 
 agenda.on('complete', (job) => {
-    console.log('检测到job完成: ', job.attrs.name);
-    console.log(job.attrs.data["result"]);
+    job_log.info('job完成: ', job.attrs.name,  "时间", job.attrs.lastFinishedAt);
 })
 
 agenda.on('success', (job) => {
-    console.log('检测到job成功: ', job.attrs.name);
-    console.log(job.attrs.data["result"]);
+    job_log.info('job成功: ', job.attrs.name, job.attrs.data["result"]);
 })
 
 agenda.on('fail', (job) => {
-    console.log('检测到job失败: ', job.attrs.name);
-    console.log('失败时间: ', job.attrs.failedAt);
-    console.log('失败原因: ', job.attrs.failReason);
+    job_log.error('job失败: ', job.attrs.name);
+    job_log.error('失败时间: ', job.attrs.failedAt);
+    job_log.error('失败原因: ', job.attrs.failReason);
 })
 
 function graceful() {
     agenda.stop(() => {
-        console.log('检测到退出')
+        job_log.info('退出')
         process.exit(0);
     });
 }

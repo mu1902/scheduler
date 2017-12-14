@@ -3,7 +3,7 @@ var rr = require("./code/rr").rr;
 var agenda = require("./index").agenda;
 
 var log4js = require("log4js");
-log4js.configure("./logs/config.json");
+log4js.configure("./log/config.json");
 var console_log = log4js.getLogger('console');
 
 if (!isNaN(process.argv[2])) {
