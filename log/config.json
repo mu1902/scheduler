@@ -5,10 +5,7 @@
         },
         "job": {
             "type": "file",
-            "filename": "/log/job.log",
-            "maxLogSize": 10,
-            "backups": 3,
-            "encoding": "utf-8"
+            "filename": "log/job.log"
         }
     },
     "categories": {

@@ -13,28 +13,27 @@ agenda.define('test', function (job) {
 });
 
 agenda.on('ready', function () {
-    agenda.every('1 minutes', 'test', { result: "" }, { timezone: 'Asia/Shanghai' });
+    agenda.every('1 minutes', 'test', { id: 0, result: "" }, { timezone: 'Asia/Shanghai' });
     // agenda.every('0 50 14 * * *', 'test', { result: "" }, { timezone: 'Asia/Shanghai' });
     agenda.start();
 });
 
 agenda.on('start', (job) => {
+    job.attrs.data["id"] = (new Date()).valueOf();
     job.attrs.data["result"] = "";
-    job_log.info('job启动: ', job.attrs.name, "时间", job.attrs.lastRunAt);
+    job_log.info('start:', job.attrs.name, ';ID:', job.attrs.data["id"]);
 })
 
 agenda.on('complete', (job) => {
-    job_log.info('job完成: ', job.attrs.name,  "时间", job.attrs.lastFinishedAt);
+    job_log.info('complete:', job.attrs.name, ';ID:', job.attrs.data["id"]);
 })
 
 agenda.on('success', (job) => {
-    job_log.info('job成功: ', job.attrs.name, job.attrs.data["result"]);
+    job_log.info('success:', job.attrs.name, ';ID:', job.attrs.data["id"], ';Return:', job.attrs.data["result"]);
 })
 
 agenda.on('fail', (job) => {
-    job_log.error('job失败: ', job.attrs.name);
-    job_log.error('失败时间: ', job.attrs.failedAt);
-    job_log.error('失败原因: ', job.attrs.failReason);
+    job_log.error('fail:', job.attrs.name, ';ID:', job.attrs.data["id"], 'time:', job.attrs.failedAt, 'reason:', job.attrs.failReason);
 })
 
 function graceful() {
