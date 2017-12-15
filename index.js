@@ -1,4 +1,5 @@
-var Agenda = require('agenda')
+var Agenda = require('agenda');
+var fs = require('fs');
 var py = require("./python/py").python;
 
 var log4js = require("log4js");
@@ -9,15 +10,32 @@ var console_log = log4js.getLogger('console');
 var mongo = 'mongodb://127.0.0.1:27017/agenda';
 var agenda = new Agenda({ db: { address: mongo } });
 
-agenda.define('test', function (job) {
-    job.attrs.data["result"] = py("python/test.py");
-});
+var op = {
+    "python": py
+};
 
-agenda.on('ready', function () {
-    agenda.every('10 minutes', 'test', { id: 0, result: "" }, { timezone: 'Asia/Shanghai' });
-    // agenda.every('0 50 14 * * *', 'test', { result: "" }, { timezone: 'Asia/Shanghai' });
-    agenda.start();
-});
+if (fs.existsSync('./jobs')) {
+    var files = fs.readdirSync('./jobs');
+    for (var f of files) {
+        if (f.split('.').slice(-1) == 'json') {
+            var j = JSON.parse(fs.readFileSync('./jobs/' + f));
+            agenda.define(j["name"], function (job) {
+                for (var n of j["flow"]) {
+                    job.attrs.data["result"] = op[n["type"]](n["program"], n["para"]);
+                }
+            });
+
+            agenda.on('ready', function () {
+                for (var n of j["flow"]) {
+                    agenda.every(n["plan"], j["name"], { id: 0, result: "" }, { timezone: 'Asia/Shanghai' });
+                }
+                agenda.start();
+            });
+        }
+    }
+} else {
+    console_log.error('无任务配置文件路径');
+}
 
 agenda.on('start', (job) => {
     job.attrs.data["id"] = (new Date()).valueOf();
@@ -44,7 +62,7 @@ function graceful() {
     });
 }
 
-process.on('SIGTERM', graceful);
-process.on('SIGINT', graceful);
+// process.on('SIGTERM', graceful);
+// process.on('SIGINT', graceful);
 
-exports.agenda = agenda;
+// exports.agenda = agenda;
