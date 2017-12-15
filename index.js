@@ -14,28 +14,31 @@ var op = {
     "python": py
 };
 
+var js = [];
+
 if (fs.existsSync('./jobs')) {
     var files = fs.readdirSync('./jobs');
     for (var f of files) {
         if (f.split('.').slice(-1) == 'json') {
-            var j = JSON.parse(fs.readFileSync('./jobs/' + f));
-            agenda.define(j["name"], function (job) {
-                for (var n of j["flow"]) {
-                    job.attrs.data["result"] = op[n["type"]](n["program"], n["para"]);
-                }
-            });
-
-            agenda.on('ready', function () {
-                for (var n of j["flow"]) {
-                    agenda.every(n["plan"], j["name"], { id: 0, result: "" }, { timezone: 'Asia/Shanghai' });
-                }
-                agenda.start();
-            });
+            js.push(JSON.parse(fs.readFileSync('./jobs/' + f)));
         }
     }
 } else {
     console_log.error('无任务配置文件路径');
 }
+
+for (var j of js) {
+    agenda.define(j["name"], function (job) {
+        job.attrs.data["result"] = op[j["type"]](j["program"], j["para"]);
+    });
+}
+
+agenda.on('ready', function () {
+    for (var j of js) {
+        agenda.every(j["plan"], j["name"], { id: 0, result: "" }, { timezone: 'Asia/Shanghai' });
+    }
+    agenda.start();
+});
 
 agenda.on('start', (job) => {
     job.attrs.data["id"] = (new Date()).valueOf();
@@ -51,8 +54,8 @@ agenda.on('success', (job) => {
     job_log.info('success:' + job.attrs.name + ';ID:' + job.attrs.data["id"] + ';Return:' + job.attrs.data["result"] + '#');
 })
 
-agenda.on('fail', (job) => {
-    job_log.error('fail:' + job.attrs.name + ';ID:' + job.attrs.data["id"] + ';Return:' + job.attrs.failReason + '#');
+agenda.on('fail', (err, job) => {
+    job_log.error('fail:' + job.attrs.name + ';ID:' + job.attrs.data["id"] + ';Return:' + err + '#');
 })
 
 function graceful() {
@@ -62,7 +65,7 @@ function graceful() {
     });
 }
 
-// process.on('SIGTERM', graceful);
-// process.on('SIGINT', graceful);
+process.on('SIGTERM', graceful);
+process.on('SIGINT', graceful);
 
-// exports.agenda = agenda;
+exports.agenda = agenda;

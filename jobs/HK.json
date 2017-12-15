@@ -1,16 +1,11 @@
 {
     "name": "HK",
+    "plan": "0 1 9 * * *",
     "gpara": {
         "dir": "D:/workspace/Creeper"
     },
-    "flow": [
-        {
-            "node": "001",
-            "type": "python",
-            "program": "D:/workspace/Creeper/HK.py",
-            "plan": "0 0 9 * * *",
-            "para": {},
-            "expara": {}
-        }
-    ]
+    "type": "python",
+    "program": "D:/workspace/Creeper/HK.py",
+    "para": {},
+    "expara": {}
 }

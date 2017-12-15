@@ -1,20 +1,4 @@
-﻿[2017-12-14T15:43:40.098] [INFO] job - start:test;ID:1513237420097#
-[2017-12-14T15:43:40.148] [INFO] job - success:test;ID:1513237420097;Return:test from python
-#
-[2017-12-14T15:43:40.148] [INFO] job - complete:test;ID:1513237420097#
-[2017-12-14T15:46:13.964] [INFO] job - start:test;ID:1513237573964#
-[2017-12-14T15:46:14.015] [INFO] job - success:test;ID:1513237573964;Return:test from python
-#
-[2017-12-14T15:46:14.016] [INFO] job - complete:test;ID:1513237573964#
-[2017-12-14T15:47:13.965] [INFO] job - start:test;ID:1513237633964#
-[2017-12-14T15:47:14.016] [INFO] job - success:test;ID:1513237633964;Return:test from python
-#
-[2017-12-14T15:47:14.017] [INFO] job - complete:test;ID:1513237633964#
-[2017-12-14T15:49:07.703] [INFO] job - start:test;ID:1513237747702#
-[2017-12-14T15:49:07.755] [INFO] job - success:test;ID:1513237747702;Return:test from python
-#
-[2017-12-14T15:49:07.755] [INFO] job - complete:test;ID:1513237747702#
-[2017-12-14T15:52:20.409] [INFO] job - start:test;ID:1513237940409#
+﻿[2017-12-14T15:52:20.409] [INFO] job - start:test;ID:1513237940409#
 [2017-12-14T15:52:20.461] [INFO] job - success:test;ID:1513237940409;Return:test from python
 #
 [2017-12-14T15:52:20.462] [INFO] job - complete:test;ID:1513237940409#
@@ -26,3 +10,22 @@
 [2017-12-14T16:12:34.887] [INFO] job - success:test;ID:1513239154837;Return:test from python
 #
 [2017-12-14T16:12:34.887] [INFO] job - complete:test;ID:1513239154837#
+[2017-12-15T14:35:00.430] [INFO] job - start:HK;ID:1513319700430#
+[2017-12-15T14:35:00.870] [ERROR] job - fail:HK;ID:1513319700430;Return:Error: Command failed: python D:/workspace/Creeper/HK.py [object Object]
+Traceback (most recent call last):
+  File "D:/workspace/Creeper/HK.py", line 126, in <module>
+    HKEX()
+  File "D:/workspace/Creeper/HK.py", line 90, in HKEX
+    if not cp.tool.isTradingDay(dn):
+  File "D:\workspace\Creeper\Creeper\tool.py", line 75, in isTradingDay
+    file_object = open(_dir + '\restday.txt', mode='r', encoding='UTF-8')
+OSError: [Errno 22] Invalid argument: 'D:\\workspace\\Creeper\restday.txt'
+#
+[2017-12-15T14:35:00.870] [INFO] job - complete:HK;ID:1513319700430#
+[2017-12-15T14:37:00.804] [INFO] job - start:HK;ID:1513319820804#
+[2017-12-15T14:37:10.680] [INFO] job - success:HK;ID:1513319820804;Return:40
+40
+2270
+2270
+#
+[2017-12-15T14:37:10.681] [INFO] job - complete:HK;ID:1513319820804#
