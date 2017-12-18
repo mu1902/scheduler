@@ -39,3 +39,15 @@ Proportion: %d. 0
 Proportion: %d. 0
 #
 [2017-12-17T09:01:01.933] [INFO] job - complete:HK;ID:1513472460807#
+[2017-12-18T09:01:00.799] [INFO] job - start:HK;ID:1513558860798#
+[2017-12-18T09:01:05.446] [ERROR] job - fail:HK;ID:1513558860798;Return:Error: Command failed: python D:/workspace/Creeper/HK.py [object Object]
+Traceback (most recent call last):
+  File "D:/workspace/Creeper/HK.py", line 127, in <module>
+    HKEX()
+  File "D:/workspace/Creeper/HK.py", line 116, in HKEX
+    change.extend(parse_html2(html))
+  File "D:/workspace/Creeper/HK.py", line 82, in parse_html2
+    "proportion": float(pq(tr)("td:eq(3)").text()[:-1]) / 100
+ValueError: could not convert string to float: 
+#
+[2017-12-18T09:01:05.447] [INFO] job - complete:HK;ID:1513558860798#

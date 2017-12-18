@@ -1,6 +1,6 @@
 var Agenda = require('agenda');
 var fs = require('fs');
-var py = require("./jobtype/jobtype").python;
+var python = require("./jobtype/jobtype").python;
 
 var log4js = require("log4js");
 log4js.configure("./log/config.json");
@@ -11,7 +11,7 @@ var mongo = 'mongodb://127.0.0.1:27017/agenda';
 var agenda = new Agenda({ db: { address: mongo } });
 
 var op = {
-    "python": py
+    "python": python
 };
 
 var js = [];
