@@ -1,6 +1,6 @@
 var Agenda = require('agenda');
 var fs = require('fs');
-var py = require("./python/py").python;
+var py = require("./jobtype/jobtype").python;
 
 var log4js = require("log4js");
 log4js.configure("./log/config.json");
@@ -28,8 +28,9 @@ if (fs.existsSync('./jobs')) {
 }
 
 for (var j of js) {
-    agenda.define(j["name"], function (job) {
+    agenda.define(j["name"], function (job, done) {
         job.attrs.data["result"] = op[j["type"]](j["program"], j["para"]);
+        done();
     });
 }
 

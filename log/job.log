@@ -29,3 +29,13 @@ OSError: [Errno 22] Invalid argument: 'D:\\workspace\\Creeper\restday.txt'
 2270
 #
 [2017-12-15T14:37:10.681] [INFO] job - complete:HK;ID:1513319820804#
+[2017-12-16T09:01:00.805] [INFO] job - start:HK;ID:1513386060804#
+[2017-12-16T09:01:01.948] [INFO] job - success:HK;ID:1513386060804;Return:Top10: %d. 0
+Proportion: %d. 0
+#
+[2017-12-16T09:01:01.949] [INFO] job - complete:HK;ID:1513386060804#
+[2017-12-17T09:01:00.808] [INFO] job - start:HK;ID:1513472460807#
+[2017-12-17T09:01:01.933] [INFO] job - success:HK;ID:1513472460807;Return:Top10: %d. 0
+Proportion: %d. 0
+#
+[2017-12-17T09:01:01.933] [INFO] job - complete:HK;ID:1513472460807#

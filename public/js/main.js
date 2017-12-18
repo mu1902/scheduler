@@ -5,7 +5,7 @@ jQuery(function () {
         data = res;
         data["logs"] = data["logs"].replace(/[\r\n]/g, "");
         data["_logs"] = [];
-        $.each(data["logs"].split('#'), function (i, log) {
+        $.each(data["logs"].split('#').reverse(), function (i, log) {
             // [2017-12-14T11:15:32.065] [INFO] job - success:test;ID:1513221332015;Return:test from python.
             var instance = {};
             if (log) {
