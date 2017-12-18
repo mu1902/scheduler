@@ -1,0 +1,11 @@
+{
+    "name": "Monitor",
+    "plan": "0 38 10 * * *",
+    "gpara": {
+        "dir": "D:/workspace/Manual"
+    },
+    "type": "cmd",
+    "program": "",
+    "para": "python D:/workspace/Manual/Manual.py",
+    "expara": {}
+}

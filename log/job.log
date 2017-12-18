@@ -10,44 +10,9 @@
 [2017-12-14T16:12:34.887] [INFO] job - success:test;ID:1513239154837;Return:test from python
 #
 [2017-12-14T16:12:34.887] [INFO] job - complete:test;ID:1513239154837#
-[2017-12-15T14:35:00.430] [INFO] job - start:HK;ID:1513319700430#
-[2017-12-15T14:35:00.870] [ERROR] job - fail:HK;ID:1513319700430;Return:Error: Command failed: python D:/workspace/Creeper/HK.py [object Object]
-Traceback (most recent call last):
-  File "D:/workspace/Creeper/HK.py", line 126, in <module>
-    HKEX()
-  File "D:/workspace/Creeper/HK.py", line 90, in HKEX
-    if not cp.tool.isTradingDay(dn):
-  File "D:\workspace\Creeper\Creeper\tool.py", line 75, in isTradingDay
-    file_object = open(_dir + '\restday.txt', mode='r', encoding='UTF-8')
-OSError: [Errno 22] Invalid argument: 'D:\\workspace\\Creeper\restday.txt'
+[2017-12-18T10:01:00.515] [INFO] job - start:HK;ID:1513562460515#
+[2017-12-18T10:01:08.104] [INFO] job - success:HK;ID:1513562460515;Return:Top10: 40.
+Proportion: 2272.
 #
-[2017-12-15T14:35:00.870] [INFO] job - complete:HK;ID:1513319700430#
-[2017-12-15T14:37:00.804] [INFO] job - start:HK;ID:1513319820804#
-[2017-12-15T14:37:10.680] [INFO] job - success:HK;ID:1513319820804;Return:40
-40
-2270
-2270
-#
-[2017-12-15T14:37:10.681] [INFO] job - complete:HK;ID:1513319820804#
-[2017-12-16T09:01:00.805] [INFO] job - start:HK;ID:1513386060804#
-[2017-12-16T09:01:01.948] [INFO] job - success:HK;ID:1513386060804;Return:Top10: %d. 0
-Proportion: %d. 0
-#
-[2017-12-16T09:01:01.949] [INFO] job - complete:HK;ID:1513386060804#
-[2017-12-17T09:01:00.808] [INFO] job - start:HK;ID:1513472460807#
-[2017-12-17T09:01:01.933] [INFO] job - success:HK;ID:1513472460807;Return:Top10: %d. 0
-Proportion: %d. 0
-#
-[2017-12-17T09:01:01.933] [INFO] job - complete:HK;ID:1513472460807#
-[2017-12-18T09:01:00.799] [INFO] job - start:HK;ID:1513558860798#
-[2017-12-18T09:01:05.446] [ERROR] job - fail:HK;ID:1513558860798;Return:Error: Command failed: python D:/workspace/Creeper/HK.py [object Object]
-Traceback (most recent call last):
-  File "D:/workspace/Creeper/HK.py", line 127, in <module>
-    HKEX()
-  File "D:/workspace/Creeper/HK.py", line 116, in HKEX
-    change.extend(parse_html2(html))
-  File "D:/workspace/Creeper/HK.py", line 82, in parse_html2
-    "proportion": float(pq(tr)("td:eq(3)").text()[:-1]) / 100
-ValueError: could not convert string to float: 
-#
-[2017-12-18T09:01:05.447] [INFO] job - complete:HK;ID:1513558860798#
+[2017-12-18T10:01:08.104] [INFO] job - complete:HK;ID:1513562460515#
+[2017-12-18T10:38:00.194] [INFO] job - start:Monitor;ID:1513564680193#

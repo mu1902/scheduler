@@ -6,7 +6,7 @@ exports.python = function (path, args) {
     return res.toString();
 }
 
-exports.cmd = function (args) {
+exports.cmd = function (path, args) {
     var res = cp.execSync('start powershell ' + args);
     return res.toString();
 }
