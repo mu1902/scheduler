@@ -31,8 +31,7 @@ if (fs.existsSync('./jobs')) {
 
 for (var j of js) {
     agenda.define(j["name"], function (job, done) {
-        job.attrs.data["result"] = op[j["type"]](j["program"], j["para"]);
-        done();
+        job.attrs.data["result"] = op[j["type"]](j["program"], j["para"], done);
     });
 }
 

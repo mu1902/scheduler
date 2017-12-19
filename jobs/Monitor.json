@@ -1,6 +1,6 @@
 {
     "name": "Monitor",
-    "plan": "0 38 10 * * *",
+    "plan": "0 50 8 * * *",
     "gpara": {
         "dir": "D:/workspace/Manual"
     },
