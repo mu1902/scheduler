@@ -1,27 +1,25 @@
 var cp = require('child_process');
 
-exports.python = function (path, args, done) {
+exports.python = function (path, args, callback) {
     // var str = JSON.stringify(args).replace(/"/g, '\\"');
     cp.exec('python ' + path + ' ' + args, function (err, stdout, stderr) {
-        done();
         if (err) {
-            return err.message;
+            callback(err.message);
         } else if (stderr) {
-            return stderr;
+            callback(stderr);
         } else {
-            return stdout;
+            callback(stdout);
         }
     });
 
 }
 
-exports.cmd = function (path, args, done) {
+exports.cmd = function (path, args, callback) {
     var res = cp.exec('start powershell ' + args, function (err, stdout, stderr) {
-        done();
         if (err) {
-            return err.message;
+            callback(err.message);
         } else {
-            return stderr;
+            callback(stderr);
         }
     });
 }

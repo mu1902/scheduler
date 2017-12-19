@@ -29,10 +29,15 @@ if (fs.existsSync('./jobs')) {
     console_log.error('无任务配置文件路径');
 }
 
-for (var j of js) {
-    agenda.define(j["name"], function (job, done) {
-        job.attrs.data["result"] = op[j["type"]](j["program"], j["para"], done);
-    });
+for (var i in js) {
+    (function (i) {
+        agenda.define(js[i]["name"], function (job, done) {
+            op[js[i]["type"]](js[i]["program"], js[i]["para"], function (res) {
+                job.attrs.data["result"] = res;
+                done();
+            });
+        });
+    })(i);
 }
 
 agenda.on('ready', function () {
