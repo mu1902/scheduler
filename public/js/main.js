@@ -1,4 +1,5 @@
 var data = null;
+var instances = [];
 
 jQuery(function () {
     $.post("/jobs/all", {}, function (res) {
@@ -6,6 +7,8 @@ jQuery(function () {
         data["logs"] = data["logs"].replace(/[\r\n]/g, "");
         data["_logs"] = [];
         data["instance"] = [];
+
+        //解析log文本
         $.each(data["logs"].split('#'), function (i, log) {
             // [2017-12-14T11:15:32.065] [INFO] job - success:test;ID:1513221332015;Return:test from python.
             var line = {};
@@ -19,6 +22,7 @@ jQuery(function () {
             }
         });
 
+        //合并实例
         $.each(data["_logs"], function (i, log) {
             if (data["instance"].length == 0) {
                 data["instance"].push({ "ID": log["ID"], "Name": log["Name"], "Start": log["Time"] })
@@ -49,39 +53,123 @@ jQuery(function () {
             }
         });
 
-        $('#job tr:not(:first)').remove();
-        for (var i in data['jobs']) {
-            var row = '<tr>';
-            row += '<td>' + data['jobs'][i]['_id'] + '</td>';
-            row += '<td>' + data['jobs'][i]['name'] + '</td>';
-            row += '<td>' + data['jobs'][i]['priority'] + '</td>';
-            row += '<td>' + data['jobs'][i]['repeatInterval'] + '</td>';
-            row += '<td><button class="detailBtn" data-name="' + data['jobs'][i]['name'] + '">Detail</button></td>';
-            row += '</tr>';
-            $(row).appendTo($('#job'));
-        }
-
-        $('.detailBtn').click(showDetail);
+        pagination(data["jobs"], "pagination1", showJobs);
     });
 
 });
 
+function pagination(data, el, fn, page) {
+    var n = parseInt(data.length / 10 + 1);
+    var page = page || 1;
+    $('#' + el).empty();
+    if (page == 1) {
+        $('#' + el).append('&lt;&lt;&nbsp;');
+        $('#' + el).append('&lt;&nbsp;');
+    } else {
+        $('#' + el).append('<a href="#">&lt;&lt;</a>&nbsp;');
+        $('#' + el).append('<a href="#">&lt;</a>&nbsp;');
+    }
 
-function showDetail() {
+    for (var i = page - 2 < 1 ? 1 : page - 2; i <= 5 && i <= n; i++) {
+        if (i == page) {
+            $('#' + el).append(i + '&nbsp;');
+        } else {
+            $('#' + el).append('<a href="#">' + i + '</a>&nbsp;');
+        }
+    }
+
+    if (page == n) {
+        $('#' + el).append('&gt;&nbsp;');
+        $('#' + el).append('&gt;&gt;&nbsp;');
+    } else {
+        $('#' + el).append('<a href="#">&gt;</a>&nbsp;');
+        $('#' + el).append('<a href="#">&gt;&gt;</a>&nbsp;');
+    }
+
+    $.each($('#' + el + ' a'), function (i, a) {
+        switch ($(a).text()) {
+            case "<<":
+                if (page != 1) {
+                    $(a).click(function () {
+                        pagination(data, el, fn, 1)
+                    });
+                }
+                break;
+            case "<":
+                if (page != 1) {
+                    $(a).click(function () {
+                        pagination(data, el, fn, page - 1)
+                    });
+                }
+                break;
+            case ">":
+                if (page != n) {
+                    $(a).click(function () {
+                        pagination(data, el, fn, page + 1)
+                    });
+                }
+                break;
+            case ">>":
+                if (page != n) {
+                    $(a).click(function () {
+                        pagination(data, el, fn, n)
+                    });
+                }
+                break;
+            default:
+                $(a).click(function () {
+                    pagination(data, el, fn, parseInt($(a).text()))
+                });
+                break;
+        }
+    });
+
+    fn(data.slice((page - 1) * 10, page * 10));
+}
+
+function showJobs(data) {
+    $('#job tr:not(:first)').remove();
+    for (var i in data) {
+        var row = '<tr>';
+        row += '<td>' + data[i]['_id'] + '</td>';
+        row += '<td>' + data[i]['name'] + '</td>';
+        row += '<td>' + data[i]['priority'] + '</td>';
+        row += '<td>' + data[i]['repeatInterval'] + '</td>';
+        row += '<td><button class="detailBtn" data-name="' + data[i]['name'] + '">Detail</button></td>';
+        row += '</tr>';
+        $(row).appendTo($('#job'));
+    }
+
+    $('.detailBtn').click(filterDetail);
+}
+
+function filterDetail() {
+    var name = $(this).data('name');
+    instances = [];
+
+    $.each(data['instance'], function (i, ins) {
+        if (name == ins['Name']) {
+            instances.push(ins);
+        }
+    });
+
+    pagination(instances.reverse(), "pagination2", showDetail);
+}
+
+
+function showDetail(data) {
     var name = $(this).data('name');
     $('#instance tr:not(:first)').remove();
 
-    $.each(data['instance'].reverse(), function (i, ins) {
-        if (name == ins['Name']) {
-            var row = '<tr>';
-            row += '<td>' + (ins['ID'] || '') + '</td>';
-            row += '<td>' + (ins['Start'] || '') + '</td>';
-            row += '<td>' + (ins['Complete'] || '') + '</td>';
-            row += '<td>' + (ins['Success'] || '') + '</td>';
-            row += '<td>' + (ins['Fail'] || '') + '</td>';
-            row += '<td>' + (ins['Return'] || '') + '</td>';
-            row += '</tr>';
-            $(row).appendTo($('#instance'));
-        }
+    $.each(data, function (i, ins) {
+        var row = '<tr>';
+        row += '<td>' + (ins['ID'] || '') + '</td>';
+        row += '<td>' + (ins['Start'] || '') + '</td>';
+        row += '<td>' + (ins['Complete'] || '') + '</td>';
+        row += '<td>' + (ins['Success'] || '') + '</td>';
+        row += '<td>' + (ins['Fail'] || '') + '</td>';
+        row += '<td>' + (ins['Return'] || '') + '</td>';
+        row += '</tr>';
+        $(row).appendTo($('#instance'));
     })
 }

@@ -8,6 +8,10 @@ table, th, td {
 	border: 1px solid black;
 }
 
+.tableDiv {
+	height: 280px;
+}
+
 th, td {
 	width: 200px;
 }
