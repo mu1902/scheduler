@@ -61,6 +61,14 @@ jQuery(function () {
 function pagination(data, el, fn, page) {
     var n = parseInt(data.length / 10 + 1);
     var page = page || 1;
+    var maxpage = 0;
+    if (page < 3) {
+        maxpage = 5;
+    } else if (page > n - 2) {
+        maxpage = n;
+    } else {
+        maxpage = page + 2;
+    }
     $('#' + el).empty();
     if (page == 1) {
         $('#' + el).append('&lt;&lt;&nbsp;');
@@ -70,7 +78,7 @@ function pagination(data, el, fn, page) {
         $('#' + el).append('<a href="#">&lt;</a>&nbsp;');
     }
 
-    for (var i = page - 2 < 1 ? 1 : page - 2; i <= 5 && i <= n; i++) {
+    for (var i = page - 2 < 1 ? 1 : page - 2; i <= maxpage; i++) {
         if (i == page) {
             $('#' + el).append(i + '&nbsp;');
         } else {
