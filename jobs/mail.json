@@ -1,11 +1,11 @@
 {
     "name": "Mail",
-    "plan": "0 45 8 * * *",
+    "plan": "0 15 9 * * *",
     "gpara": {
-        "dir": "D:/produce/Fund/code/python"
+        "dir": "D:/workspace/Fund/code/python"
     },
     "type": "python",
-    "program": "D:/produce/Fund/code/python/task_mail.py",
+    "program": "D:/workspace/Fund/code/python/task_mail.py",
     "para": "",
     "expara": {}
 }

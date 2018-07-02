@@ -1492,3 +1492,14 @@ Proportion: 0.
 Proportion: 0.
 #
 [2018-07-01T09:01:01.227] [INFO] job - complete:HK;ID:1530406860018#
+[2018-07-02T08:50:00.644] [INFO] job - start:Monitor;ID:1530492600644#
+[2018-07-02T09:01:00.681] [INFO] job - start:HK;ID:1530493260681#
+[2018-07-02T09:01:09.867] [INFO] job - success:HK;ID:1530493260681;Return:Top10: 20.
+Proportion: 2380.
+#
+[2018-07-02T09:01:09.868] [INFO] job - complete:HK;ID:1530493260681#
+[2018-07-02T09:15:00.779] [INFO] job - start:Mail;ID:1530494100779#
+[2018-07-02T09:15:05.660] [INFO] job - success:Mail;ID:1530494100779;Return:chuh 2
+zhengy 1
+#
+[2018-07-02T09:15:05.660] [INFO] job - complete:Mail;ID:1530494100779#
