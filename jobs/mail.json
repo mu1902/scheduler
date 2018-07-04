@@ -1,6 +1,6 @@
 {
     "name": "Mail",
-    "plan": "0 15 9 * * *",
+    "plan": "0 15 8 * * *",
     "gpara": {
         "dir": "D:/workspace/Fund/code/python"
     },
