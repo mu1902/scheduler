@@ -1529,3 +1529,112 @@ wangyf 2
 [2018-07-04T09:15:04.711] [INFO] job - complete:Mail;ID:1530666900476#
 [2018-07-04T09:39:44.191] [INFO] job - success:Monitor;ID:1530665400485;Return:#
 [2018-07-04T09:39:44.191] [INFO] job - complete:Monitor;ID:1530665400485#
+[2018-07-05T08:15:00.323] [INFO] job - start:Mail;ID:1530749700323#
+[2018-07-05T08:15:04.389] [INFO] job - success:Mail;ID:1530749700323;Return:chuh 2
+wangyf 2
+#
+[2018-07-05T08:15:04.389] [INFO] job - complete:Mail;ID:1530749700323#
+[2018-07-05T08:50:00.294] [INFO] job - start:Monitor;ID:1530751800294#
+[2018-07-05T09:01:00.289] [INFO] job - start:HK;ID:1530752460289#
+[2018-07-05T09:01:08.944] [INFO] job - success:HK;ID:1530752460289;Return:Top10: 40.
+Proportion: 2407.
+#
+[2018-07-05T09:01:08.944] [INFO] job - complete:HK;ID:1530752460289#
+[2018-07-05T15:57:42.407] [INFO] job - success:Monitor;ID:1530751800294;Return:#
+[2018-07-05T15:57:42.408] [INFO] job - complete:Monitor;ID:1530751800294#
+[2018-07-06T08:15:00.305] [INFO] job - start:Mail;ID:1530836100305#
+[2018-07-06T08:15:11.306] [INFO] job - success:Mail;ID:1530836100305;Return:chuh 2
+wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-07-06T08:15:11.306] [INFO] job - complete:Mail;ID:1530836100305#
+[2018-07-06T08:50:00.294] [INFO] job - start:Monitor;ID:1530838200294#
+[2018-07-06T09:01:00.290] [INFO] job - start:HK;ID:1530838860290#
+[2018-07-06T09:01:09.832] [INFO] job - success:HK;ID:1530838860290;Return:Top10: 40.
+Proportion: 2413.
+#
+[2018-07-06T09:01:09.832] [INFO] job - complete:HK;ID:1530838860290#
+[2018-07-06T09:31:27.955] [INFO] job - success:Monitor;ID:1530838200294;Return:#
+[2018-07-06T09:31:27.955] [INFO] job - complete:Monitor;ID:1530838200294#
+[2018-07-07T08:15:00.302] [INFO] job - start:Mail;ID:1530922500302#
+[2018-07-07T08:15:05.095] [INFO] job - success:Mail;ID:1530922500302;Return:chuh 2
+wangyf 2
+#
+[2018-07-07T08:15:05.095] [INFO] job - complete:Mail;ID:1530922500302#
+[2018-07-07T08:50:00.295] [INFO] job - start:Monitor;ID:1530924600295#
+[2018-07-07T08:50:04.296] [INFO] job - success:Monitor;ID:1530924600295;Return:#
+[2018-07-07T08:50:04.296] [INFO] job - complete:Monitor;ID:1530924600295#
+[2018-07-07T09:01:00.293] [INFO] job - start:HK;ID:1530925260293#
+[2018-07-07T09:01:00.833] [INFO] job - success:HK;ID:1530925260293;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-07-07T09:01:00.833] [INFO] job - complete:HK;ID:1530925260293#
+[2018-07-08T08:15:00.302] [INFO] job - start:Mail;ID:1531008900302#
+[2018-07-08T08:15:04.810] [INFO] job - success:Mail;ID:1531008900302;Return:chuh 2
+wangyf 2
+#
+[2018-07-08T08:15:04.810] [INFO] job - complete:Mail;ID:1531008900302#
+[2018-07-08T08:50:00.296] [INFO] job - start:Monitor;ID:1531011000296#
+[2018-07-08T08:50:03.810] [INFO] job - success:Monitor;ID:1531011000296;Return:#
+[2018-07-08T08:50:03.811] [INFO] job - complete:Monitor;ID:1531011000296#
+[2018-07-08T09:01:00.293] [INFO] job - start:HK;ID:1531011660293#
+[2018-07-08T09:01:00.789] [INFO] job - success:HK;ID:1531011660293;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-07-08T09:01:00.789] [INFO] job - complete:HK;ID:1531011660293#
+[2018-07-09T08:15:00.308] [INFO] job - start:Mail;ID:1531095300307#
+[2018-07-09T08:15:04.831] [INFO] job - success:Mail;ID:1531095300307;Return:chuh 2
+wangyf 2
+#
+[2018-07-09T08:15:04.832] [INFO] job - complete:Mail;ID:1531095300307#
+[2018-07-09T08:50:00.297] [INFO] job - start:Monitor;ID:1531097400297#
+[2018-07-09T09:01:00.305] [INFO] job - start:HK;ID:1531098060305#
+[2018-07-09T09:01:09.385] [INFO] job - success:HK;ID:1531098060305;Return:Top10: 40.
+Proportion: 2416.
+#
+[2018-07-09T09:01:09.385] [INFO] job - complete:HK;ID:1531098060305#
+[2018-07-09T16:18:12.326] [INFO] job - success:Monitor;ID:1531097400297;Return:#
+[2018-07-09T16:18:12.326] [INFO] job - complete:Monitor;ID:1531097400297#
+[2018-07-10T08:15:00.299] [INFO] job - start:Mail;ID:1531181700299#
+[2018-07-10T08:15:06.889] [INFO] job - success:Mail;ID:1531181700299;Return:Command failed: python D:/workspace/Fund/code/python/task_mail.py 
+Traceback (most recent call last):
+  File "D:/workspace/Fund/code/python/task_mail.py", line 50, in <module>
+    send_email([k + '@fundbj.com', 'chuh@fundbj.com'], '������������', mail_body)
+  File "D:/workspace/Fund/code/python/task_mail.py", line 19, in send_email
+    msg = MIMEText(massage, _subtype='plain', _charset='gb2312')
+  File "C:\Users\Fund\AppData\Local\Programs\Python\Python36-32\lib\email\mime\text.py", line 42, in __init__
+    self.set_payload(_text, _charset)
+  File "C:\Users\Fund\AppData\Local\Programs\Python\Python36-32\lib\email\message.py", line 315, in set_payload
+    payload = payload.encode(charset.output_charset)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u2014' in position 25: illegal multibyte sequence
+#
+[2018-07-10T08:15:06.889] [INFO] job - complete:Mail;ID:1531181700299#
+[2018-07-10T08:50:00.297] [INFO] job - start:Monitor;ID:1531183800297#
+[2018-07-10T09:01:00.293] [INFO] job - start:HK;ID:1531184460293#
+[2018-07-10T09:01:09.181] [INFO] job - success:HK;ID:1531184460293;Return:Top10: 40.
+Proportion: 2419.
+#
+[2018-07-10T09:01:09.181] [INFO] job - complete:HK;ID:1531184460293#
+[2018-07-10T09:25:14.687] [INFO] job - success:Monitor;ID:1531183800297;Return:#
+[2018-07-10T09:25:14.687] [INFO] job - complete:Monitor;ID:1531183800297#
+[2018-07-11T08:15:00.300] [INFO] job - start:Mail;ID:1531268100300#
+[2018-07-11T08:15:03.341] [INFO] job - success:Mail;ID:1531268100300;Return:Command failed: python D:/workspace/Fund/code/python/task_mail.py 
+Traceback (most recent call last):
+  File "D:/workspace/Fund/code/python/task_mail.py", line 50, in <module>
+    send_email([k + '@fundbj.com', 'chuh@fundbj.com'], '������������', mail_body)
+  File "D:/workspace/Fund/code/python/task_mail.py", line 19, in send_email
+    msg = MIMEText(massage, _subtype='plain', _charset='gb2312')
+  File "C:\Users\Fund\AppData\Local\Programs\Python\Python36-32\lib\email\mime\text.py", line 42, in __init__
+    self.set_payload(_text, _charset)
+  File "C:\Users\Fund\AppData\Local\Programs\Python\Python36-32\lib\email\message.py", line 315, in set_payload
+    payload = payload.encode(charset.output_charset)
+UnicodeEncodeError: 'gb2312' codec can't encode character '\u2014' in position 25: illegal multibyte sequence
+#
+[2018-07-11T08:15:03.341] [INFO] job - complete:Mail;ID:1531268100300#
+[2018-07-11T08:50:00.314] [INFO] job - start:Monitor;ID:1531270200314#
+[2018-07-11T09:01:00.293] [INFO] job - start:HK;ID:1531270860293#
+[2018-07-11T09:01:09.127] [INFO] job - success:HK;ID:1531270860293;Return:Top10: 40.
+Proportion: 2421.
+#
+[2018-07-11T09:01:09.127] [INFO] job - complete:HK;ID:1531270860293#

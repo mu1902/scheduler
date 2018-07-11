@@ -63,7 +63,7 @@ function pagination(data, el, fn, page) {
     var page = page || 1;
     var maxpage = 0;
     if (page < 3) {
-        maxpage = 5;
+        maxpage = n >= 5 ? 5 : n;
     } else if (page > n - 2) {
         maxpage = n;
     } else {
