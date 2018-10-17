@@ -1638,3 +1638,1484 @@ UnicodeEncodeError: 'gb2312' codec can't encode character '\u2014' in position 2
 Proportion: 2421.
 #
 [2018-07-11T09:01:09.127] [INFO] job - complete:HK;ID:1531270860293#
+[2018-07-12T08:15:00.635] [INFO] job - start:Mail;ID:1531354500635#
+[2018-07-12T08:15:09.322] [INFO] job - success:Mail;ID:1531354500635;Return:wangyf 3
+zhengy 1
+xuex 1
+chuh 2
+#
+[2018-07-12T08:15:09.323] [INFO] job - complete:Mail;ID:1531354500635#
+[2018-07-12T08:50:00.619] [INFO] job - start:Monitor;ID:1531356600619#
+[2018-07-12T09:01:00.614] [INFO] job - start:HK;ID:1531357260614#
+[2018-07-12T09:01:09.757] [INFO] job - success:HK;ID:1531357260614;Return:Top10: 40.
+Proportion: 2420.
+#
+[2018-07-12T09:01:09.757] [INFO] job - complete:HK;ID:1531357260614#
+[2018-07-12T15:00:20.697] [INFO] job - success:Monitor;ID:1531356600619;Return:#
+[2018-07-12T15:00:20.697] [INFO] job - complete:Monitor;ID:1531356600619#
+[2018-07-13T08:15:00.633] [INFO] job - start:Mail;ID:1531440900632#
+[2018-07-13T08:15:10.168] [INFO] job - success:Mail;ID:1531440900632;Return:wangyf 3
+zhengy 3
+xuex 1
+chuh 1
+zhongc 1
+#
+[2018-07-13T08:15:10.168] [INFO] job - complete:Mail;ID:1531440900632#
+[2018-07-13T08:50:00.621] [INFO] job - start:Monitor;ID:1531443000621#
+[2018-07-13T09:01:00.615] [INFO] job - start:HK;ID:1531443660615#
+[2018-07-13T09:01:09.886] [INFO] job - success:HK;ID:1531443660615;Return:Top10: 40.
+Proportion: 2421.
+#
+[2018-07-13T09:01:09.886] [INFO] job - complete:HK;ID:1531443660615#
+[2018-07-13T15:00:26.657] [INFO] job - success:Monitor;ID:1531443000621;Return:#
+[2018-07-13T15:00:26.657] [INFO] job - complete:Monitor;ID:1531443000621#
+[2018-07-14T08:15:00.626] [INFO] job - start:Mail;ID:1531527300626#
+[2018-07-14T08:15:11.186] [INFO] job - success:Mail;ID:1531527300626;Return:wangyf 3
+zhengy 3
+xuex 1
+chuh 1
+zhongc 2
+liuh 1
+#
+[2018-07-14T08:15:11.186] [INFO] job - complete:Mail;ID:1531527300626#
+[2018-07-14T08:50:00.620] [INFO] job - start:Monitor;ID:1531529400620#
+[2018-07-14T08:50:04.221] [INFO] job - success:Monitor;ID:1531529400620;Return:#
+[2018-07-14T08:50:04.221] [INFO] job - complete:Monitor;ID:1531529400620#
+[2018-07-14T09:01:00.616] [INFO] job - start:HK;ID:1531530060616#
+[2018-07-14T09:01:01.249] [INFO] job - success:HK;ID:1531530060616;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-07-14T09:01:01.249] [INFO] job - complete:HK;ID:1531530060616#
+[2018-07-15T08:15:00.629] [INFO] job - start:Mail;ID:1531613700629#
+[2018-07-15T08:15:09.643] [INFO] job - success:Mail;ID:1531613700629;Return:wangyf 3
+zhengy 3
+xuex 1
+chuh 1
+zhongc 2
+liuh 1
+#
+[2018-07-15T08:15:09.643] [INFO] job - complete:Mail;ID:1531613700629#
+[2018-07-15T08:50:00.625] [INFO] job - start:Monitor;ID:1531615800625#
+[2018-07-15T08:50:04.175] [INFO] job - success:Monitor;ID:1531615800625;Return:#
+[2018-07-15T08:50:04.175] [INFO] job - complete:Monitor;ID:1531615800625#
+[2018-07-15T09:01:00.621] [INFO] job - start:HK;ID:1531616460621#
+[2018-07-15T09:01:01.171] [INFO] job - success:HK;ID:1531616460621;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-07-15T09:01:01.172] [INFO] job - complete:HK;ID:1531616460621#
+[2018-07-16T08:15:00.629] [INFO] job - start:Mail;ID:1531700100629#
+[2018-07-16T08:15:11.275] [INFO] job - success:Mail;ID:1531700100629;Return:wangyf 3
+zhengy 3
+xuex 1
+chuh 1
+zhongc 2
+liuh 1
+#
+[2018-07-16T08:15:11.275] [INFO] job - complete:Mail;ID:1531700100629#
+[2018-07-16T08:50:00.622] [INFO] job - start:Monitor;ID:1531702200622#
+[2018-07-16T09:01:00.620] [INFO] job - start:HK;ID:1531702860620#
+[2018-07-16T09:01:09.122] [INFO] job - success:HK;ID:1531702860620;Return:Top10: 40.
+Proportion: 2422.
+#
+[2018-07-16T09:01:09.122] [INFO] job - complete:HK;ID:1531702860620#
+[2018-07-16T09:30:22.959] [INFO] job - success:Monitor;ID:1531702200622;Return:#
+[2018-07-16T09:30:22.959] [INFO] job - complete:Monitor;ID:1531702200622#
+[2018-07-17T08:15:00.630] [INFO] job - start:Mail;ID:1531786500630#
+[2018-07-17T08:15:14.739] [INFO] job - success:Mail;ID:1531786500630;Return:wangyf 5
+zhengy 3
+xuex 1
+chuh 1
+zhongc 2
+liuh 1
+penglm 1
+#
+[2018-07-17T08:15:14.739] [INFO] job - complete:Mail;ID:1531786500630#
+[2018-07-17T08:50:00.629] [INFO] job - start:Monitor;ID:1531788600629#
+[2018-07-17T09:01:00.618] [INFO] job - start:HK;ID:1531789260618#
+[2018-07-17T09:01:09.333] [INFO] job - success:HK;ID:1531789260618;Return:Top10: 40.
+Proportion: 2421.
+#
+[2018-07-17T09:01:09.333] [INFO] job - complete:HK;ID:1531789260618#
+[2018-07-17T13:42:26.222] [INFO] job - success:Monitor;ID:1531788600629;Return:#
+[2018-07-17T13:42:26.222] [INFO] job - complete:Monitor;ID:1531788600629#
+[2018-07-18T08:15:00.629] [INFO] job - start:Mail;ID:1531872900629#
+[2018-07-18T08:15:17.210] [INFO] job - success:Mail;ID:1531872900629;Return:wangyf 5
+zhengy 3
+xuex 1
+chuh 1
+zhongc 2
+liuh 1
+penglm 1
+#
+[2018-07-18T08:15:17.210] [INFO] job - complete:Mail;ID:1531872900629#
+[2018-07-18T08:50:00.619] [INFO] job - start:Monitor;ID:1531875000619#
+[2018-07-18T09:01:00.618] [INFO] job - start:HK;ID:1531875660618#
+[2018-07-18T09:01:09.385] [INFO] job - success:HK;ID:1531875660618;Return:Top10: 40.
+Proportion: 2419.
+#
+[2018-07-18T09:01:09.385] [INFO] job - complete:HK;ID:1531875660618#
+[2018-07-18T15:29:48.831] [INFO] job - success:Monitor;ID:1531875000619;Return:#
+[2018-07-18T15:29:48.832] [INFO] job - complete:Monitor;ID:1531875000619#
+[2018-07-19T08:15:00.630] [INFO] job - start:Mail;ID:1531959300630#
+[2018-07-19T08:15:14.947] [INFO] job - success:Mail;ID:1531959300630;Return:wangyf 5
+xuex 1
+chuh 1
+zhongc 1
+zhengy 2
+liuh 1
+penglm 1
+#
+[2018-07-19T08:15:14.947] [INFO] job - complete:Mail;ID:1531959300630#
+[2018-07-19T08:50:00.620] [INFO] job - start:Monitor;ID:1531961400620#
+[2018-07-19T09:01:00.621] [INFO] job - start:HK;ID:1531962060621#
+[2018-07-19T09:01:09.147] [INFO] job - success:HK;ID:1531962060621;Return:Top10: 40.
+Proportion: 2423.
+#
+[2018-07-19T09:01:09.147] [INFO] job - complete:HK;ID:1531962060621#
+[2018-07-19T09:25:14.363] [INFO] job - success:Monitor;ID:1531961400620;Return:#
+[2018-07-19T09:25:14.363] [INFO] job - complete:Monitor;ID:1531961400620#
+[2018-07-20T08:15:00.639] [INFO] job - start:Mail;ID:1532045700639#
+[2018-07-20T08:15:13.770] [INFO] job - success:Mail;ID:1532045700639;Return:wangyf 5
+xuex 1
+chuh 1
+zhongc 1
+zhengy 3
+liuh 1
+penglm 1
+#
+[2018-07-20T08:15:13.770] [INFO] job - complete:Mail;ID:1532045700639#
+[2018-07-20T08:50:00.621] [INFO] job - start:Monitor;ID:1532047800621#
+[2018-07-20T09:01:00.619] [INFO] job - start:HK;ID:1532048460619#
+[2018-07-20T09:01:10.571] [INFO] job - success:HK;ID:1532048460619;Return:Top10: 40.
+Proportion: 2423.
+#
+[2018-07-20T09:01:10.571] [INFO] job - complete:HK;ID:1532048460619#
+[2018-07-20T15:56:26.188] [INFO] job - success:Monitor;ID:1532047800621;Return:#
+[2018-07-20T15:56:26.188] [INFO] job - complete:Monitor;ID:1532047800621#
+[2018-07-21T08:15:00.045] [INFO] job - start:Mail;ID:1532132100045#
+[2018-07-21T08:15:09.679] [INFO] job - success:Mail;ID:1532132100045;Return:wangyf 4
+zhongc 1
+zhengy 5
+liuh 1
+#
+[2018-07-21T08:15:09.679] [INFO] job - complete:Mail;ID:1532132100045#
+[2018-07-21T08:50:00.035] [INFO] job - start:Monitor;ID:1532134200034#
+[2018-07-21T08:50:04.566] [INFO] job - success:Monitor;ID:1532134200034;Return:#
+[2018-07-21T08:50:04.566] [INFO] job - complete:Monitor;ID:1532134200034#
+[2018-07-21T09:01:00.030] [INFO] job - start:HK;ID:1532134860029#
+[2018-07-21T09:01:00.575] [INFO] job - success:HK;ID:1532134860029;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-07-21T09:01:00.575] [INFO] job - complete:HK;ID:1532134860029#
+[2018-07-22T08:15:00.036] [INFO] job - start:Mail;ID:1532218500036#
+[2018-07-22T08:15:08.970] [INFO] job - success:Mail;ID:1532218500036;Return:wangyf 4
+zhongc 1
+zhengy 5
+liuh 1
+#
+[2018-07-22T08:15:08.970] [INFO] job - complete:Mail;ID:1532218500036#
+[2018-07-22T08:50:00.036] [INFO] job - start:Monitor;ID:1532220600036#
+[2018-07-22T08:50:03.381] [INFO] job - success:Monitor;ID:1532220600036;Return:#
+[2018-07-22T08:50:03.381] [INFO] job - complete:Monitor;ID:1532220600036#
+[2018-07-22T09:01:00.030] [INFO] job - start:HK;ID:1532221260030#
+[2018-07-22T09:01:00.525] [INFO] job - success:HK;ID:1532221260030;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-07-22T09:01:00.525] [INFO] job - complete:HK;ID:1532221260030#
+[2018-07-23T08:15:00.036] [INFO] job - start:Mail;ID:1532304900036#
+[2018-07-23T08:15:10.551] [INFO] job - success:Mail;ID:1532304900036;Return:wangyf 4
+zhongc 1
+zhengy 5
+liuh 1
+#
+[2018-07-23T08:15:10.551] [INFO] job - complete:Mail;ID:1532304900036#
+[2018-07-23T08:50:00.037] [INFO] job - start:Monitor;ID:1532307000037#
+[2018-07-23T09:01:00.031] [INFO] job - start:HK;ID:1532307660031#
+[2018-07-23T09:01:09.382] [INFO] job - success:HK;ID:1532307660031;Return:Top10: 40.
+Proportion: 2422.
+#
+[2018-07-23T09:01:09.382] [INFO] job - complete:HK;ID:1532307660031#
+[2018-07-24T08:15:00.800] [INFO] job - start:Mail;ID:1532391300800#
+[2018-07-24T08:15:03.104] [INFO] job - success:Mail;ID:1532391300800;Return:wangyf 4
+zhongc 1
+zhengy 5
+liuh 1
+#
+[2018-07-24T08:15:03.104] [INFO] job - complete:Mail;ID:1532391300800#
+[2018-07-24T08:50:00.787] [INFO] job - start:Monitor;ID:1532393400787#
+[2018-07-24T09:01:00.775] [INFO] job - start:HK;ID:1532394060775#
+[2018-07-24T09:01:10.182] [INFO] job - success:HK;ID:1532394060775;Return:Top10: 40.
+Proportion: 2423.
+#
+[2018-07-24T09:01:10.182] [INFO] job - complete:HK;ID:1532394060775#
+[2018-07-24T15:40:25.399] [INFO] job - success:Monitor;ID:1532393400787;Return:#
+[2018-07-24T15:40:25.399] [INFO] job - complete:Monitor;ID:1532393400787#
+[2018-07-25T08:15:00.794] [INFO] job - start:Mail;ID:1532477700794#
+[2018-07-25T08:15:10.889] [INFO] job - success:Mail;ID:1532477700794;Return:wangyf 4
+zhongc 1
+zhengy 5
+liuh 1
+#
+[2018-07-25T08:15:10.889] [INFO] job - complete:Mail;ID:1532477700794#
+[2018-07-25T08:50:00.792] [INFO] job - start:Monitor;ID:1532479800792#
+[2018-07-25T09:01:00.785] [INFO] job - start:HK;ID:1532480460785#
+[2018-07-25T09:01:10.991] [INFO] job - success:HK;ID:1532480460785;Return:Top10: 40.
+Proportion: 2421.
+#
+[2018-07-25T09:01:10.991] [INFO] job - complete:HK;ID:1532480460785#
+[2018-07-25T15:00:32.256] [INFO] job - success:Monitor;ID:1532479800792;Return:#
+[2018-07-25T15:00:32.256] [INFO] job - complete:Monitor;ID:1532479800792#
+[2018-07-26T08:15:00.787] [INFO] job - start:Mail;ID:1532564100787#
+[2018-07-26T08:15:09.664] [INFO] job - success:Mail;ID:1532564100787;Return:zhongc 1
+zhengy 1
+liuh 3
+wangyf 2
+chuh 1
+#
+[2018-07-26T08:15:09.665] [INFO] job - complete:Mail;ID:1532564100787#
+[2018-07-26T08:50:00.785] [INFO] job - start:Monitor;ID:1532566200785#
+[2018-07-26T09:01:00.776] [INFO] job - start:HK;ID:1532566860776#
+[2018-07-26T09:01:09.510] [INFO] job - success:HK;ID:1532566860776;Return:Top10: 40.
+Proportion: 2423.
+#
+[2018-07-26T09:01:09.510] [INFO] job - complete:HK;ID:1532566860776#
+[2018-07-26T15:53:08.304] [INFO] job - success:Monitor;ID:1532566200785;Return:#
+[2018-07-26T15:53:08.305] [INFO] job - complete:Monitor;ID:1532566200785#
+[2018-07-27T08:15:00.788] [INFO] job - start:Mail;ID:1532650500787#
+[2018-07-27T08:15:07.206] [INFO] job - success:Mail;ID:1532650500787;Return:wangyf 2
+liuh 2
+chuh 1
+#
+[2018-07-27T08:15:07.206] [INFO] job - complete:Mail;ID:1532650500787#
+[2018-07-27T08:50:00.788] [INFO] job - start:Monitor;ID:1532652600788#
+[2018-07-27T09:01:00.777] [INFO] job - start:HK;ID:1532653260777#
+[2018-07-27T09:01:09.321] [INFO] job - success:HK;ID:1532653260777;Return:Top10: 40.
+Proportion: 2424.
+#
+[2018-07-27T09:01:09.321] [INFO] job - complete:HK;ID:1532653260777#
+[2018-07-27T15:33:32.518] [INFO] job - success:Monitor;ID:1532652600788;Return:#
+[2018-07-27T15:33:32.518] [INFO] job - complete:Monitor;ID:1532652600788#
+[2018-07-28T08:15:00.796] [INFO] job - start:Mail;ID:1532736900796#
+[2018-07-28T08:15:07.746] [INFO] job - success:Mail;ID:1532736900796;Return:wangyf 2
+liuh 2
+chuh 1
+#
+[2018-07-28T08:15:07.746] [INFO] job - complete:Mail;ID:1532736900796#
+[2018-07-28T08:50:00.791] [INFO] job - start:Monitor;ID:1532739000791#
+[2018-07-28T08:50:04.343] [INFO] job - success:Monitor;ID:1532739000791;Return:#
+[2018-07-28T08:50:04.343] [INFO] job - complete:Monitor;ID:1532739000791#
+[2018-07-28T09:01:00.781] [INFO] job - start:HK;ID:1532739660781#
+[2018-07-28T09:01:01.260] [INFO] job - success:HK;ID:1532739660781;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-07-28T09:01:01.260] [INFO] job - complete:HK;ID:1532739660781#
+[2018-07-29T08:15:00.791] [INFO] job - start:Mail;ID:1532823300791#
+[2018-07-29T08:15:09.140] [INFO] job - success:Mail;ID:1532823300791;Return:wangyf 2
+liuh 2
+chuh 1
+#
+[2018-07-29T08:15:09.140] [INFO] job - complete:Mail;ID:1532823300791#
+[2018-07-29T08:50:00.792] [INFO] job - start:Monitor;ID:1532825400792#
+[2018-07-29T08:50:04.376] [INFO] job - success:Monitor;ID:1532825400792;Return:#
+[2018-07-29T08:50:04.376] [INFO] job - complete:Monitor;ID:1532825400792#
+[2018-07-29T09:01:00.779] [INFO] job - start:HK;ID:1532826060779#
+[2018-07-29T09:01:01.313] [INFO] job - success:HK;ID:1532826060779;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-07-29T09:01:01.313] [INFO] job - complete:HK;ID:1532826060779#
+[2018-07-30T08:15:00.789] [INFO] job - start:Mail;ID:1532909700789#
+[2018-07-30T08:15:09.225] [INFO] job - success:Mail;ID:1532909700789;Return:wangyf 2
+liuh 2
+chuh 1
+#
+[2018-07-30T08:15:09.225] [INFO] job - complete:Mail;ID:1532909700789#
+[2018-07-30T08:50:00.788] [INFO] job - start:Monitor;ID:1532911800788#
+[2018-07-30T09:01:00.781] [INFO] job - start:HK;ID:1532912460780#
+[2018-07-30T09:01:10.249] [INFO] job - success:HK;ID:1532912460780;Return:Top10: 40.
+Proportion: 2423.
+#
+[2018-07-30T09:01:10.249] [INFO] job - complete:HK;ID:1532912460780#
+[2018-07-30T15:00:16.404] [INFO] job - success:Monitor;ID:1532911800788;Return:#
+[2018-07-30T15:00:16.404] [INFO] job - complete:Monitor;ID:1532911800788#
+[2018-07-31T08:15:00.790] [INFO] job - start:Mail;ID:1532996100790#
+[2018-07-31T08:15:07.737] [INFO] job - success:Mail;ID:1532996100790;Return:wangyf 2
+chuh 1
+#
+[2018-07-31T08:15:07.738] [INFO] job - complete:Mail;ID:1532996100790#
+[2018-07-31T08:50:00.788] [INFO] job - start:Monitor;ID:1532998200788#
+[2018-07-31T09:01:00.780] [INFO] job - start:HK;ID:1532998860780#
+[2018-07-31T09:01:09.708] [INFO] job - success:HK;ID:1532998860780;Return:Top10: 40.
+Proportion: 2423.
+#
+[2018-07-31T09:01:09.709] [INFO] job - complete:HK;ID:1532998860780#
+[2018-07-31T16:49:21.242] [INFO] job - success:Monitor;ID:1532998200788;Return:#
+[2018-07-31T16:49:21.242] [INFO] job - complete:Monitor;ID:1532998200788#
+[2018-08-01T08:15:00.791] [INFO] job - start:Mail;ID:1533082500791#
+[2018-08-01T08:15:07.165] [INFO] job - success:Mail;ID:1533082500791;Return:xuex 1
+liuh 2
+chuh 1
+#
+[2018-08-01T08:15:07.165] [INFO] job - complete:Mail;ID:1533082500791#
+[2018-08-01T08:50:00.789] [INFO] job - start:Monitor;ID:1533084600789#
+[2018-08-01T09:01:00.780] [INFO] job - start:HK;ID:1533085260780#
+[2018-08-01T09:01:08.751] [INFO] job - success:HK;ID:1533085260780;Return:Top10: 40.
+Proportion: 2425.
+#
+[2018-08-01T09:01:08.751] [INFO] job - complete:HK;ID:1533085260780#
+[2018-08-01T15:00:27.353] [INFO] job - success:Monitor;ID:1533084600789;Return:#
+[2018-08-01T15:00:27.353] [INFO] job - complete:Monitor;ID:1533084600789#
+[2018-08-02T08:15:00.791] [INFO] job - start:Mail;ID:1533168900790#
+[2018-08-02T08:15:06.611] [INFO] job - success:Mail;ID:1533168900790;Return:Command failed: python D:/workspace/Fund/code/python/task_mail.py 
+Traceback (most recent call last):
+  File "D:/workspace/Fund/code/python/task_mail.py", line 114, in <module>
+    t['cycle'] + '�������ʱ�䣺' + t['marks'][-1] + '��\n'
+KeyError: 'marks'
+#
+[2018-08-02T08:15:06.611] [INFO] job - complete:Mail;ID:1533168900790#
+[2018-08-02T08:50:00.789] [INFO] job - start:Monitor;ID:1533171000789#
+[2018-08-02T09:01:00.780] [INFO] job - start:HK;ID:1533171660780#
+[2018-08-02T09:01:09.690] [INFO] job - success:HK;ID:1533171660780;Return:Top10: 40.
+Proportion: 2424.
+#
+[2018-08-02T09:01:09.690] [INFO] job - complete:HK;ID:1533171660780#
+[2018-08-02T15:01:18.170] [INFO] job - success:Monitor;ID:1533171000789;Return:#
+[2018-08-02T15:01:18.170] [INFO] job - complete:Monitor;ID:1533171000789#
+[2018-08-03T08:15:00.791] [INFO] job - start:Mail;ID:1533255300791#
+[2018-08-03T08:15:08.154] [INFO] job - success:Mail;ID:1533255300791;Return:xuex 4
+liuh 1
+wangyf 1
+zhengy 2
+#
+[2018-08-03T08:15:08.154] [INFO] job - complete:Mail;ID:1533255300791#
+[2018-08-03T08:50:00.790] [INFO] job - start:Monitor;ID:1533257400790#
+[2018-08-03T09:01:00.782] [INFO] job - start:HK;ID:1533258060782#
+[2018-08-03T09:01:09.759] [INFO] job - success:HK;ID:1533258060782;Return:Top10: 40.
+Proportion: 2424.
+#
+[2018-08-03T09:01:09.759] [INFO] job - complete:HK;ID:1533258060782#
+[2018-08-03T09:35:20.944] [INFO] job - success:Monitor;ID:1533257400790;Return:#
+[2018-08-03T09:35:20.944] [INFO] job - complete:Monitor;ID:1533257400790#
+[2018-08-04T08:15:00.795] [INFO] job - start:Mail;ID:1533341700795#
+[2018-08-04T08:15:10.131] [INFO] job - success:Mail;ID:1533341700795;Return:xuex 4
+liuh 1
+wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-08-04T08:15:10.131] [INFO] job - complete:Mail;ID:1533341700795#
+[2018-08-04T08:50:00.795] [INFO] job - start:Monitor;ID:1533343800795#
+[2018-08-04T08:50:04.769] [INFO] job - success:Monitor;ID:1533343800795;Return:#
+[2018-08-04T08:50:04.769] [INFO] job - complete:Monitor;ID:1533343800795#
+[2018-08-04T09:01:00.786] [INFO] job - start:HK;ID:1533344460786#
+[2018-08-04T09:01:01.308] [INFO] job - success:HK;ID:1533344460786;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-08-04T09:01:01.308] [INFO] job - complete:HK;ID:1533344460786#
+[2018-08-05T08:15:00.796] [INFO] job - start:Mail;ID:1533428100796#
+[2018-08-05T08:15:09.803] [INFO] job - success:Mail;ID:1533428100796;Return:xuex 4
+liuh 1
+wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-08-05T08:15:09.803] [INFO] job - complete:Mail;ID:1533428100796#
+[2018-08-05T08:50:00.793] [INFO] job - start:Monitor;ID:1533430200793#
+[2018-08-05T08:50:02.686] [INFO] job - success:Monitor;ID:1533430200793;Return:#
+[2018-08-05T08:50:02.686] [INFO] job - complete:Monitor;ID:1533430200793#
+[2018-08-05T09:01:00.785] [INFO] job - start:HK;ID:1533430860785#
+[2018-08-05T09:01:02.042] [INFO] job - success:HK;ID:1533430860785;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-08-05T09:01:02.042] [INFO] job - complete:HK;ID:1533430860785#
+[2018-08-06T08:15:00.795] [INFO] job - start:Mail;ID:1533514500795#
+[2018-08-06T08:15:10.669] [INFO] job - success:Mail;ID:1533514500795;Return:xuex 4
+liuh 1
+wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-08-06T08:15:10.669] [INFO] job - complete:Mail;ID:1533514500795#
+[2018-08-06T08:50:00.795] [INFO] job - start:Monitor;ID:1533516600795#
+[2018-08-06T09:01:00.783] [INFO] job - start:HK;ID:1533517260783#
+[2018-08-06T09:01:09.111] [INFO] job - success:HK;ID:1533517260783;Return:Top10: 40.
+Proportion: 2426.
+#
+[2018-08-06T09:01:09.111] [INFO] job - complete:HK;ID:1533517260783#
+[2018-08-06T17:23:36.179] [INFO] job - success:Monitor;ID:1533516600795;Return:#
+[2018-08-06T17:23:36.179] [INFO] job - complete:Monitor;ID:1533516600795#
+[2018-08-07T08:15:00.793] [INFO] job - start:Mail;ID:1533600900793#
+[2018-08-07T08:15:11.734] [INFO] job - success:Mail;ID:1533600900793;Return:xuex 4
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-07T08:15:11.734] [INFO] job - complete:Mail;ID:1533600900793#
+[2018-08-07T08:50:00.793] [INFO] job - start:Monitor;ID:1533603000793#
+[2018-08-07T09:01:00.788] [INFO] job - start:HK;ID:1533603660788#
+[2018-08-07T09:01:10.126] [INFO] job - success:HK;ID:1533603660788;Return:Top10: 40.
+Proportion: 2427.
+#
+[2018-08-07T09:01:10.126] [INFO] job - complete:HK;ID:1533603660788#
+[2018-08-07T15:00:22.716] [INFO] job - success:Monitor;ID:1533603000793;Return:#
+[2018-08-07T15:00:22.716] [INFO] job - complete:Monitor;ID:1533603000793#
+[2018-08-08T08:15:00.795] [INFO] job - start:Mail;ID:1533687300795#
+[2018-08-08T08:15:11.879] [INFO] job - success:Mail;ID:1533687300795;Return:xuex 4
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-08T08:15:11.879] [INFO] job - complete:Mail;ID:1533687300795#
+[2018-08-08T08:50:00.790] [INFO] job - start:Monitor;ID:1533689400790#
+[2018-08-08T09:01:00.783] [INFO] job - start:HK;ID:1533690060783#
+[2018-08-08T09:01:10.472] [INFO] job - success:HK;ID:1533690060783;Return:Top10: 40.
+Proportion: 2428.
+#
+[2018-08-08T09:01:10.472] [INFO] job - complete:HK;ID:1533690060783#
+[2018-08-08T15:00:33.371] [INFO] job - success:Monitor;ID:1533689400790;Return:#
+[2018-08-08T15:00:33.371] [INFO] job - complete:Monitor;ID:1533689400790#
+[2018-08-09T08:15:00.795] [INFO] job - start:Mail;ID:1533773700795#
+[2018-08-09T08:15:11.730] [INFO] job - success:Mail;ID:1533773700795;Return:xuex 4
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-09T08:15:11.730] [INFO] job - complete:Mail;ID:1533773700795#
+[2018-08-09T08:50:00.792] [INFO] job - start:Monitor;ID:1533775800792#
+[2018-08-09T09:01:00.708] [INFO] job - start:HK;ID:1533776460707#
+[2018-08-09T09:01:13.350] [INFO] job - success:HK;ID:1533776460707;Return:Top10: 40.
+Proportion: 2428.
+#
+[2018-08-09T09:01:13.350] [INFO] job - complete:HK;ID:1533776460707#
+[2018-08-10T08:15:00.985] [INFO] job - start:Mail;ID:1533860100985#
+[2018-08-10T08:15:11.429] [INFO] job - success:Mail;ID:1533860100985;Return:xuex 4
+liuh 1
+wangyf 1
+wujg 2
+zhengy 2
+zhongc 1
+#
+[2018-08-10T08:15:11.429] [INFO] job - complete:Mail;ID:1533860100985#
+[2018-08-10T08:50:00.986] [INFO] job - start:Monitor;ID:1533862200986#
+[2018-08-10T08:50:03.361] [INFO] job - success:Monitor;ID:1533862200986;Return:#
+[2018-08-10T08:50:03.361] [INFO] job - complete:Monitor;ID:1533862200986#
+[2018-08-11T08:15:00.333] [INFO] job - start:Mail;ID:1533946500333#
+[2018-08-11T08:15:11.391] [INFO] job - success:Mail;ID:1533946500333;Return:xuex 4
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-11T08:15:11.392] [INFO] job - complete:Mail;ID:1533946500333#
+[2018-08-11T08:50:00.311] [INFO] job - start:Monitor;ID:1533948600311#
+[2018-08-11T08:50:02.699] [INFO] job - success:Monitor;ID:1533948600311;Return:#
+[2018-08-11T08:50:02.699] [INFO] job - complete:Monitor;ID:1533948600311#
+[2018-08-11T09:01:00.298] [INFO] job - start:HK;ID:1533949260297#
+[2018-08-11T09:01:00.929] [INFO] job - success:HK;ID:1533949260297;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-08-11T09:01:00.929] [INFO] job - complete:HK;ID:1533949260297#
+[2018-08-12T08:15:00.308] [INFO] job - start:Mail;ID:1534032900308#
+[2018-08-12T08:15:11.632] [INFO] job - success:Mail;ID:1534032900308;Return:xuex 4
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-12T08:15:11.633] [INFO] job - complete:Mail;ID:1534032900308#
+[2018-08-12T08:50:00.312] [INFO] job - start:Monitor;ID:1534035000312#
+[2018-08-12T08:50:04.096] [INFO] job - success:Monitor;ID:1534035000312;Return:#
+[2018-08-12T08:50:04.096] [INFO] job - complete:Monitor;ID:1534035000312#
+[2018-08-12T09:01:00.298] [INFO] job - start:HK;ID:1534035660298#
+[2018-08-12T09:01:00.745] [INFO] job - success:HK;ID:1534035660298;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-08-12T09:01:00.745] [INFO] job - complete:HK;ID:1534035660298#
+[2018-08-13T08:15:00.310] [INFO] job - start:Mail;ID:1534119300310#
+[2018-08-13T08:15:10.620] [INFO] job - success:Mail;ID:1534119300310;Return:xuex 4
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-13T08:15:10.620] [INFO] job - complete:Mail;ID:1534119300310#
+[2018-08-13T08:50:00.309] [INFO] job - start:Monitor;ID:1534121400309#
+[2018-08-13T08:50:03.751] [INFO] job - success:Monitor;ID:1534121400309;Return:#
+[2018-08-13T08:50:03.751] [INFO] job - complete:Monitor;ID:1534121400309#
+[2018-08-13T09:01:00.300] [INFO] job - start:HK;ID:1534122060300#
+[2018-08-13T09:01:09.322] [INFO] job - success:HK;ID:1534122060300;Return:Top10: 40.
+Proportion: 2427.
+#
+[2018-08-13T09:01:09.322] [INFO] job - complete:HK;ID:1534122060300#
+[2018-08-14T08:15:00.308] [INFO] job - start:Mail;ID:1534205700308#
+[2018-08-14T08:15:12.238] [INFO] job - success:Mail;ID:1534205700308;Return:xuex 4
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-14T08:15:12.238] [INFO] job - complete:Mail;ID:1534205700308#
+[2018-08-14T08:50:00.307] [INFO] job - start:Monitor;ID:1534207800307#
+[2018-08-14T09:01:00.298] [INFO] job - start:HK;ID:1534208460297#
+[2018-08-14T09:01:09.557] [INFO] job - success:HK;ID:1534208460297;Return:Top10: 40.
+Proportion: 2427.
+#
+[2018-08-14T09:01:09.558] [INFO] job - complete:HK;ID:1534208460297#
+[2018-08-14T15:00:11.901] [INFO] job - success:Monitor;ID:1534207800307;Return:#
+[2018-08-14T15:00:11.901] [INFO] job - complete:Monitor;ID:1534207800307#
+[2018-08-15T08:15:00.308] [INFO] job - start:Mail;ID:1534292100308#
+[2018-08-15T08:15:10.790] [INFO] job - success:Mail;ID:1534292100308;Return:xuex 2
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-15T08:15:10.790] [INFO] job - complete:Mail;ID:1534292100308#
+[2018-08-15T08:50:00.309] [INFO] job - start:Monitor;ID:1534294200309#
+[2018-08-15T09:01:00.297] [INFO] job - start:HK;ID:1534294860297#
+[2018-08-15T09:01:11.899] [INFO] job - success:HK;ID:1534294860297;Return:Top10: 40.
+Proportion: 2427.
+#
+[2018-08-15T09:01:11.899] [INFO] job - complete:HK;ID:1534294860297#
+[2018-08-15T15:00:54.253] [INFO] job - success:Monitor;ID:1534294200309;Return:#
+[2018-08-15T15:00:54.253] [INFO] job - complete:Monitor;ID:1534294200309#
+[2018-08-16T08:15:00.310] [INFO] job - start:Mail;ID:1534378500310#
+[2018-08-16T08:15:12.388] [INFO] job - success:Mail;ID:1534378500310;Return:xuex 2
+liuh 1
+wangyf 1
+wujg 2
+zhengy 1
+zhongc 1
+#
+[2018-08-16T08:15:12.388] [INFO] job - complete:Mail;ID:1534378500310#
+[2018-08-16T08:50:00.306] [INFO] job - start:Monitor;ID:1534380600306#
+[2018-08-16T09:01:00.299] [INFO] job - start:HK;ID:1534381260298#
+[2018-08-16T09:01:09.110] [INFO] job - success:HK;ID:1534381260298;Return:Top10: 40.
+Proportion: 2430.
+#
+[2018-08-16T09:01:09.110] [INFO] job - complete:HK;ID:1534381260298#
+[2018-08-16T15:22:21.052] [INFO] job - success:Monitor;ID:1534380600306;Return:#
+[2018-08-16T15:22:21.052] [INFO] job - complete:Monitor;ID:1534380600306#
+[2018-08-17T08:15:00.317] [INFO] job - start:Mail;ID:1534464900317#
+[2018-08-17T08:15:09.240] [INFO] job - success:Mail;ID:1534464900317;Return:xuex 2
+liuh 1
+zhengy 2
+zhongc 1
+#
+[2018-08-17T08:15:09.240] [INFO] job - complete:Mail;ID:1534464900317#
+[2018-08-17T08:50:00.306] [INFO] job - start:Monitor;ID:1534467000306#
+[2018-08-17T09:01:00.301] [INFO] job - start:HK;ID:1534467660301#
+[2018-08-17T09:01:09.136] [INFO] job - success:HK;ID:1534467660301;Return:Top10: 40.
+Proportion: 2429.
+#
+[2018-08-17T09:01:09.136] [INFO] job - complete:HK;ID:1534467660301#
+[2018-08-17T15:00:44.929] [INFO] job - success:Monitor;ID:1534467000306;Return:#
+[2018-08-17T15:00:44.930] [INFO] job - complete:Monitor;ID:1534467000306#
+[2018-08-18T08:15:00.313] [INFO] job - start:Mail;ID:1534551300313#
+[2018-08-18T08:15:09.359] [INFO] job - success:Mail;ID:1534551300313;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-18T08:15:09.359] [INFO] job - complete:Mail;ID:1534551300313#
+[2018-08-18T08:50:00.309] [INFO] job - start:Monitor;ID:1534553400309#
+[2018-08-18T08:50:02.564] [INFO] job - success:Monitor;ID:1534553400309;Return:#
+[2018-08-18T08:50:02.564] [INFO] job - complete:Monitor;ID:1534553400309#
+[2018-08-18T09:01:00.304] [INFO] job - start:HK;ID:1534554060304#
+[2018-08-18T09:01:00.795] [INFO] job - success:HK;ID:1534554060304;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-08-18T09:01:00.795] [INFO] job - complete:HK;ID:1534554060304#
+[2018-08-19T08:15:00.313] [INFO] job - start:Mail;ID:1534637700313#
+[2018-08-19T08:15:08.700] [INFO] job - success:Mail;ID:1534637700313;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-19T08:15:08.700] [INFO] job - complete:Mail;ID:1534637700313#
+[2018-08-19T08:50:00.308] [INFO] job - start:Monitor;ID:1534639800308#
+[2018-08-19T08:50:03.898] [INFO] job - success:Monitor;ID:1534639800308;Return:#
+[2018-08-19T08:50:03.898] [INFO] job - complete:Monitor;ID:1534639800308#
+[2018-08-19T09:01:00.299] [INFO] job - start:HK;ID:1534640460299#
+[2018-08-19T09:01:00.830] [INFO] job - success:HK;ID:1534640460299;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-08-19T09:01:00.830] [INFO] job - complete:HK;ID:1534640460299#
+[2018-08-20T08:15:00.309] [INFO] job - start:Mail;ID:1534724100309#
+[2018-08-20T08:15:08.860] [INFO] job - success:Mail;ID:1534724100309;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-20T08:15:08.860] [INFO] job - complete:Mail;ID:1534724100309#
+[2018-08-20T08:50:00.309] [INFO] job - start:Monitor;ID:1534726200309#
+[2018-08-20T09:01:00.300] [INFO] job - start:HK;ID:1534726860300#
+[2018-08-20T09:01:09.063] [INFO] job - success:HK;ID:1534726860300;Return:Top10: 40.
+Proportion: 2428.
+#
+[2018-08-20T09:01:09.063] [INFO] job - complete:HK;ID:1534726860300#
+[2018-08-20T09:27:14.961] [INFO] job - success:Monitor;ID:1534726200309;Return:#
+[2018-08-20T09:27:14.962] [INFO] job - complete:Monitor;ID:1534726200309#
+[2018-08-21T08:15:00.316] [INFO] job - start:Mail;ID:1534810500316#
+[2018-08-21T08:15:08.199] [INFO] job - success:Mail;ID:1534810500316;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-21T08:15:08.199] [INFO] job - complete:Mail;ID:1534810500316#
+[2018-08-21T08:50:00.309] [INFO] job - start:Monitor;ID:1534812600309#
+[2018-08-21T09:01:00.301] [INFO] job - start:HK;ID:1534813260301#
+[2018-08-21T09:01:09.040] [INFO] job - success:HK;ID:1534813260301;Return:Top10: 40.
+Proportion: 2430.
+#
+[2018-08-21T09:01:09.041] [INFO] job - complete:HK;ID:1534813260301#
+[2018-08-21T11:12:53.959] [INFO] job - success:Monitor;ID:1534812600309;Return:#
+[2018-08-21T11:12:53.960] [INFO] job - complete:Monitor;ID:1534812600309#
+[2018-08-22T08:15:00.312] [INFO] job - start:Mail;ID:1534896900312#
+[2018-08-22T08:15:10.831] [INFO] job - success:Mail;ID:1534896900312;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-22T08:15:10.832] [INFO] job - complete:Mail;ID:1534896900312#
+[2018-08-22T08:50:00.308] [INFO] job - start:Monitor;ID:1534899000308#
+[2018-08-22T09:01:00.300] [INFO] job - start:HK;ID:1534899660300#
+[2018-08-22T09:01:09.258] [INFO] job - success:HK;ID:1534899660300;Return:Top10: 40.
+Proportion: 2428.
+#
+[2018-08-22T09:01:09.258] [INFO] job - complete:HK;ID:1534899660300#
+[2018-08-22T16:02:45.055] [INFO] job - success:Monitor;ID:1534899000308;Return:#
+[2018-08-22T16:02:45.055] [INFO] job - complete:Monitor;ID:1534899000308#
+[2018-08-23T08:15:00.100] [INFO] job - start:Mail;ID:1534983300100#
+[2018-08-23T08:15:08.219] [INFO] job - success:Mail;ID:1534983300100;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-23T08:15:08.219] [INFO] job - complete:Mail;ID:1534983300100#
+[2018-08-23T08:50:00.064] [INFO] job - start:Monitor;ID:1534985400064#
+[2018-08-23T09:01:00.056] [INFO] job - start:HK;ID:1534986060056#
+[2018-08-23T09:01:16.030] [INFO] job - success:HK;ID:1534986060056;Return:Top10: 40.
+Proportion: 2426.
+#
+[2018-08-23T09:01:16.030] [INFO] job - complete:HK;ID:1534986060056#
+[2018-08-23T09:41:18.628] [INFO] job - success:Monitor;ID:1534985400064;Return:#
+[2018-08-23T09:41:18.628] [INFO] job - complete:Monitor;ID:1534985400064#
+[2018-08-24T08:15:00.067] [INFO] job - start:Mail;ID:1535069700067#
+[2018-08-24T08:15:08.553] [INFO] job - success:Mail;ID:1535069700067;Return:liuh 1
+xuex 1
+zhengy 2
+zhongc 1
+#
+[2018-08-24T08:15:08.554] [INFO] job - complete:Mail;ID:1535069700067#
+[2018-08-24T08:50:00.064] [INFO] job - start:Monitor;ID:1535071800064#
+[2018-08-24T09:01:00.057] [INFO] job - start:HK;ID:1535072460057#
+[2018-08-24T09:01:09.017] [INFO] job - success:HK;ID:1535072460057;Return:Top10: 40.
+Proportion: 2428.
+#
+[2018-08-24T09:01:09.017] [INFO] job - complete:HK;ID:1535072460057#
+[2018-08-24T09:59:06.573] [INFO] job - success:Monitor;ID:1535071800064;Return:#
+[2018-08-24T09:59:06.573] [INFO] job - complete:Monitor;ID:1535071800064#
+[2018-08-25T08:15:00.068] [INFO] job - start:Mail;ID:1535156100068#
+[2018-08-25T08:15:07.989] [INFO] job - success:Mail;ID:1535156100068;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-25T08:15:07.989] [INFO] job - complete:Mail;ID:1535156100068#
+[2018-08-25T08:50:00.068] [INFO] job - start:Monitor;ID:1535158200068#
+[2018-08-25T08:50:03.934] [INFO] job - success:Monitor;ID:1535158200068;Return:#
+[2018-08-25T08:50:03.934] [INFO] job - complete:Monitor;ID:1535158200068#
+[2018-08-25T09:01:00.058] [INFO] job - start:HK;ID:1535158860058#
+[2018-08-25T09:01:00.558] [INFO] job - success:HK;ID:1535158860058;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-08-25T09:01:00.558] [INFO] job - complete:HK;ID:1535158860058#
+[2018-08-26T08:15:00.070] [INFO] job - start:Mail;ID:1535242500070#
+[2018-08-26T08:15:09.056] [INFO] job - success:Mail;ID:1535242500070;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-26T08:15:09.056] [INFO] job - complete:Mail;ID:1535242500070#
+[2018-08-26T08:50:00.067] [INFO] job - start:Monitor;ID:1535244600067#
+[2018-08-26T08:50:03.871] [INFO] job - success:Monitor;ID:1535244600067;Return:#
+[2018-08-26T08:50:03.871] [INFO] job - complete:Monitor;ID:1535244600067#
+[2018-08-26T09:01:00.059] [INFO] job - start:HK;ID:1535245260059#
+[2018-08-26T09:01:00.550] [INFO] job - success:HK;ID:1535245260059;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-08-26T09:01:00.550] [INFO] job - complete:HK;ID:1535245260059#
+[2018-08-27T08:15:00.072] [INFO] job - start:Mail;ID:1535328900072#
+[2018-08-27T08:15:08.476] [INFO] job - success:Mail;ID:1535328900072;Return:liuh 1
+xuex 1
+zhengy 1
+zhongc 1
+#
+[2018-08-27T08:15:08.476] [INFO] job - complete:Mail;ID:1535328900072#
+[2018-08-27T08:50:00.066] [INFO] job - start:Monitor;ID:1535331000066#
+[2018-08-27T09:01:00.059] [INFO] job - start:HK;ID:1535331660059#
+[2018-08-27T09:01:09.595] [INFO] job - success:HK;ID:1535331660059;Return:Top10: 40.
+Proportion: 2427.
+#
+[2018-08-27T09:01:09.595] [INFO] job - complete:HK;ID:1535331660059#
+[2018-08-27T13:10:18.491] [INFO] job - success:Monitor;ID:1535331000066;Return:#
+[2018-08-27T13:10:18.491] [INFO] job - complete:Monitor;ID:1535331000066#
+[2018-08-28T08:15:00.073] [INFO] job - start:Mail;ID:1535415300072#
+[2018-08-28T08:15:10.540] [INFO] job - success:Mail;ID:1535415300072;Return:liuh 1
+xuex 1
+wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-08-28T08:15:10.540] [INFO] job - complete:Mail;ID:1535415300072#
+[2018-08-28T08:50:00.065] [INFO] job - start:Monitor;ID:1535417400065#
+[2018-08-28T09:01:00.061] [INFO] job - start:HK;ID:1535418060061#
+[2018-08-28T09:01:08.684] [INFO] job - success:HK;ID:1535418060061;Return:Top10: 40.
+Proportion: 2429.
+#
+[2018-08-28T09:01:08.684] [INFO] job - complete:HK;ID:1535418060061#
+[2018-08-28T09:42:41.493] [INFO] job - success:Monitor;ID:1535417400065;Return:#
+[2018-08-28T09:42:41.493] [INFO] job - complete:Monitor;ID:1535417400065#
+[2018-08-29T08:15:00.073] [INFO] job - start:Mail;ID:1535501700072#
+[2018-08-29T08:15:07.660] [INFO] job - success:Mail;ID:1535501700072;Return:xuex 1
+wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-08-29T08:15:07.660] [INFO] job - complete:Mail;ID:1535501700072#
+[2018-08-29T08:50:00.066] [INFO] job - start:Monitor;ID:1535503800065#
+[2018-08-29T09:01:00.061] [INFO] job - start:HK;ID:1535504460061#
+[2018-08-29T09:01:08.741] [INFO] job - success:HK;ID:1535504460061;Return:Top10: 40.
+Proportion: 2429.
+#
+[2018-08-29T09:01:08.741] [INFO] job - complete:HK;ID:1535504460061#
+[2018-08-29T16:26:03.258] [INFO] job - success:Monitor;ID:1535503800065;Return:#
+[2018-08-29T16:26:03.258] [INFO] job - complete:Monitor;ID:1535503800065#
+[2018-08-30T08:15:00.075] [INFO] job - start:Mail;ID:1535588100075#
+[2018-08-30T08:15:14.969] [INFO] job - success:Mail;ID:1535588100075;Return:xuex 1
+wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-08-30T08:15:14.970] [INFO] job - complete:Mail;ID:1535588100075#
+[2018-08-30T08:50:00.066] [INFO] job - start:Monitor;ID:1535590200066#
+[2018-08-30T09:01:00.062] [INFO] job - start:HK;ID:1535590860062#
+[2018-08-30T09:01:09.058] [INFO] job - success:HK;ID:1535590860062;Return:Top10: 40.
+Proportion: 2427.
+#
+[2018-08-30T09:01:09.058] [INFO] job - complete:HK;ID:1535590860062#
+[2018-08-30T15:00:30.782] [INFO] job - success:Monitor;ID:1535590200066;Return:#
+[2018-08-30T15:00:30.782] [INFO] job - complete:Monitor;ID:1535590200066#
+[2018-08-31T08:15:00.074] [INFO] job - start:Mail;ID:1535674500074#
+[2018-08-31T08:15:08.518] [INFO] job - success:Mail;ID:1535674500074;Return:xuex 1
+wangyf 2
+zhengy 3
+zhongc 2
+#
+[2018-08-31T08:15:08.518] [INFO] job - complete:Mail;ID:1535674500074#
+[2018-08-31T08:50:00.065] [INFO] job - start:Monitor;ID:1535676600065#
+[2018-08-31T09:01:00.063] [INFO] job - start:HK;ID:1535677260063#
+[2018-08-31T09:01:29.726] [INFO] job - success:HK;ID:1535677260063;Return:Top10: 40.
+Proportion: 2430.
+#
+[2018-08-31T09:01:29.726] [INFO] job - complete:HK;ID:1535677260063#
+[2018-08-31T15:00:20.842] [INFO] job - success:Monitor;ID:1535676600065;Return:#
+[2018-08-31T15:00:20.843] [INFO] job - complete:Monitor;ID:1535676600065#
+[2018-09-01T08:15:00.073] [INFO] job - start:Mail;ID:1535760900073#
+[2018-09-01T08:15:07.922] [INFO] job - success:Mail;ID:1535760900073;Return:xuex 1
+wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-09-01T08:15:07.922] [INFO] job - complete:Mail;ID:1535760900073#
+[2018-09-01T08:50:00.065] [INFO] job - start:Monitor;ID:1535763000065#
+[2018-09-01T08:50:03.897] [INFO] job - success:Monitor;ID:1535763000065;Return:#
+[2018-09-01T08:50:03.897] [INFO] job - complete:Monitor;ID:1535763000065#
+[2018-09-01T09:01:00.065] [INFO] job - start:HK;ID:1535763660065#
+[2018-09-01T09:01:00.560] [INFO] job - success:HK;ID:1535763660065;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-01T09:01:00.560] [INFO] job - complete:HK;ID:1535763660065#
+[2018-09-02T08:15:00.075] [INFO] job - start:Mail;ID:1535847300075#
+[2018-09-02T08:15:08.433] [INFO] job - success:Mail;ID:1535847300075;Return:xuex 1
+wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-09-02T08:15:08.433] [INFO] job - complete:Mail;ID:1535847300075#
+[2018-09-02T08:50:00.066] [INFO] job - start:Monitor;ID:1535849400065#
+[2018-09-02T08:50:03.930] [INFO] job - success:Monitor;ID:1535849400065;Return:#
+[2018-09-02T08:50:03.930] [INFO] job - complete:Monitor;ID:1535849400065#
+[2018-09-02T09:01:00.066] [INFO] job - start:HK;ID:1535850060066#
+[2018-09-02T09:01:00.615] [INFO] job - success:HK;ID:1535850060066;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-02T09:01:00.615] [INFO] job - complete:HK;ID:1535850060066#
+[2018-09-03T08:15:00.075] [INFO] job - start:Mail;ID:1535933700075#
+[2018-09-03T08:15:09.509] [INFO] job - success:Mail;ID:1535933700075;Return:xuex 1
+wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-09-03T08:15:09.510] [INFO] job - complete:Mail;ID:1535933700075#
+[2018-09-03T08:50:00.066] [INFO] job - start:Monitor;ID:1535935800066#
+[2018-09-03T08:50:04.323] [INFO] job - success:Monitor;ID:1535935800066;Return:#
+[2018-09-03T08:50:04.323] [INFO] job - complete:Monitor;ID:1535935800066#
+[2018-09-03T09:01:00.066] [INFO] job - start:HK;ID:1535936460066#
+[2018-09-03T09:01:27.144] [INFO] job - success:HK;ID:1535936460066;Return:Top10: 40.
+Proportion: 2430.
+#
+[2018-09-03T09:01:27.144] [INFO] job - complete:HK;ID:1535936460066#
+[2018-09-04T08:15:00.076] [INFO] job - start:Mail;ID:1536020100076#
+[2018-09-04T08:15:06.559] [INFO] job - success:Mail;ID:1536020100076;Return:wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-09-04T08:15:06.559] [INFO] job - complete:Mail;ID:1536020100076#
+[2018-09-04T08:50:00.066] [INFO] job - start:Monitor;ID:1536022200066#
+[2018-09-04T09:01:00.067] [INFO] job - start:HK;ID:1536022860067#
+[2018-09-04T09:01:09.798] [INFO] job - success:HK;ID:1536022860067;Return:Top10: 40.
+Proportion: 2429.
+#
+[2018-09-04T09:01:09.798] [INFO] job - complete:HK;ID:1536022860067#
+[2018-09-04T15:00:25.602] [INFO] job - success:Monitor;ID:1536022200066;Return:#
+[2018-09-04T15:00:25.603] [INFO] job - complete:Monitor;ID:1536022200066#
+[2018-09-05T08:15:00.077] [INFO] job - start:Mail;ID:1536106500077#
+[2018-09-05T08:15:07.597] [INFO] job - success:Mail;ID:1536106500077;Return:wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-09-05T08:15:07.597] [INFO] job - complete:Mail;ID:1536106500077#
+[2018-09-05T08:50:00.066] [INFO] job - start:Monitor;ID:1536108600066#
+[2018-09-05T09:01:00.069] [INFO] job - start:HK;ID:1536109260069#
+[2018-09-05T09:01:09.221] [INFO] job - success:HK;ID:1536109260069;Return:Top10: 40.
+Proportion: 2429.
+#
+[2018-09-05T09:01:09.221] [INFO] job - complete:HK;ID:1536109260069#
+[2018-09-05T15:00:30.458] [INFO] job - success:Monitor;ID:1536108600066;Return:#
+[2018-09-05T15:00:30.459] [INFO] job - complete:Monitor;ID:1536108600066#
+[2018-09-06T08:15:00.078] [INFO] job - start:Mail;ID:1536192900078#
+[2018-09-06T08:15:07.626] [INFO] job - success:Mail;ID:1536192900078;Return:wangyf 2
+zhengy 1
+zhongc 1
+#
+[2018-09-06T08:15:07.626] [INFO] job - complete:Mail;ID:1536192900078#
+[2018-09-06T08:50:00.066] [INFO] job - start:Monitor;ID:1536195000066#
+[2018-09-06T09:01:00.074] [INFO] job - start:HK;ID:1536195660074#
+[2018-09-06T09:01:09.106] [INFO] job - success:HK;ID:1536195660074;Return:Top10: 40.
+Proportion: 2430.
+#
+[2018-09-06T09:01:09.106] [INFO] job - complete:HK;ID:1536195660074#
+[2018-09-06T10:04:59.482] [INFO] job - success:Monitor;ID:1536195000066;Return:#
+[2018-09-06T10:04:59.482] [INFO] job - complete:Monitor;ID:1536195000066#
+[2018-09-07T08:15:00.080] [INFO] job - start:Mail;ID:1536279300080#
+[2018-09-07T08:15:07.083] [INFO] job - success:Mail;ID:1536279300080;Return:wangyf 2
+zhengy 2
+zhongc 1
+#
+[2018-09-07T08:15:07.083] [INFO] job - complete:Mail;ID:1536279300080#
+[2018-09-07T08:50:00.068] [INFO] job - start:Monitor;ID:1536281400068#
+[2018-09-07T09:01:00.071] [INFO] job - start:HK;ID:1536282060071#
+[2018-09-07T09:01:08.713] [INFO] job - success:HK;ID:1536282060071;Return:Top10: 40.
+Proportion: 2430.
+#
+[2018-09-07T09:01:08.713] [INFO] job - complete:HK;ID:1536282060071#
+[2018-09-07T17:14:34.876] [INFO] job - success:Monitor;ID:1536281400068;Return:#
+[2018-09-07T17:14:34.876] [INFO] job - complete:Monitor;ID:1536281400068#
+[2018-09-08T08:15:00.080] [INFO] job - start:Mail;ID:1536365700080#
+[2018-09-08T08:15:07.466] [INFO] job - success:Mail;ID:1536365700080;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-08T08:15:07.466] [INFO] job - complete:Mail;ID:1536365700080#
+[2018-09-08T08:50:00.067] [INFO] job - start:Monitor;ID:1536367800067#
+[2018-09-08T08:50:04.017] [INFO] job - success:Monitor;ID:1536367800067;Return:#
+[2018-09-08T08:50:04.017] [INFO] job - complete:Monitor;ID:1536367800067#
+[2018-09-08T09:01:00.074] [INFO] job - start:HK;ID:1536368460074#
+[2018-09-08T09:01:00.583] [INFO] job - success:HK;ID:1536368460074;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-08T09:01:00.583] [INFO] job - complete:HK;ID:1536368460074#
+[2018-09-09T08:15:00.081] [INFO] job - start:Mail;ID:1536452100081#
+[2018-09-09T08:15:08.451] [INFO] job - success:Mail;ID:1536452100081;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-09T08:15:08.451] [INFO] job - complete:Mail;ID:1536452100081#
+[2018-09-09T08:50:00.069] [INFO] job - start:Monitor;ID:1536454200069#
+[2018-09-09T08:50:04.007] [INFO] job - success:Monitor;ID:1536454200069;Return:#
+[2018-09-09T08:50:04.007] [INFO] job - complete:Monitor;ID:1536454200069#
+[2018-09-09T09:01:00.072] [INFO] job - start:HK;ID:1536454860072#
+[2018-09-09T09:01:00.605] [INFO] job - success:HK;ID:1536454860072;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-09T09:01:00.605] [INFO] job - complete:HK;ID:1536454860072#
+[2018-09-10T08:15:00.081] [INFO] job - start:Mail;ID:1536538500081#
+[2018-09-10T08:15:07.513] [INFO] job - success:Mail;ID:1536538500081;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-10T08:15:07.513] [INFO] job - complete:Mail;ID:1536538500081#
+[2018-09-10T08:50:00.070] [INFO] job - start:Monitor;ID:1536540600070#
+[2018-09-10T09:01:00.072] [INFO] job - start:HK;ID:1536541260072#
+[2018-09-10T09:01:10.249] [INFO] job - success:HK;ID:1536541260072;Return:Top10: 40.
+Proportion: 2431.
+#
+[2018-09-10T09:01:10.249] [INFO] job - complete:HK;ID:1536541260072#
+[2018-09-10T15:00:29.576] [INFO] job - success:Monitor;ID:1536540600070;Return:#
+[2018-09-10T15:00:29.577] [INFO] job - complete:Monitor;ID:1536540600070#
+[2018-09-11T08:15:00.081] [INFO] job - start:Mail;ID:1536624900081#
+[2018-09-11T08:15:07.615] [INFO] job - success:Mail;ID:1536624900081;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-11T08:15:07.615] [INFO] job - complete:Mail;ID:1536624900081#
+[2018-09-11T08:50:00.069] [INFO] job - start:Monitor;ID:1536627000069#
+[2018-09-11T09:01:00.072] [INFO] job - start:HK;ID:1536627660072#
+[2018-09-11T09:01:09.528] [INFO] job - success:HK;ID:1536627660072;Return:Top10: 40.
+Proportion: 2430.
+#
+[2018-09-11T09:01:09.528] [INFO] job - complete:HK;ID:1536627660072#
+[2018-09-11T15:27:18.528] [INFO] job - success:Monitor;ID:1536627000069;Return:#
+[2018-09-11T15:27:18.528] [INFO] job - complete:Monitor;ID:1536627000069#
+[2018-09-12T08:15:00.083] [INFO] job - start:Mail;ID:1536711300083#
+[2018-09-12T08:15:06.064] [INFO] job - success:Mail;ID:1536711300083;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-12T08:15:06.064] [INFO] job - complete:Mail;ID:1536711300083#
+[2018-09-12T08:50:00.073] [INFO] job - start:Monitor;ID:1536713400073#
+[2018-09-12T09:01:00.073] [INFO] job - start:HK;ID:1536714060073#
+[2018-09-12T09:01:08.895] [INFO] job - success:HK;ID:1536714060073;Return:Top10: 40.
+Proportion: 2431.
+#
+[2018-09-12T09:01:08.896] [INFO] job - complete:HK;ID:1536714060073#
+[2018-09-12T15:00:50.724] [INFO] job - success:Monitor;ID:1536713400073;Return:#
+[2018-09-12T15:00:50.724] [INFO] job - complete:Monitor;ID:1536713400073#
+[2018-09-13T08:15:00.083] [INFO] job - start:Mail;ID:1536797700083#
+[2018-09-13T08:15:06.759] [INFO] job - success:Mail;ID:1536797700083;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-13T08:15:06.759] [INFO] job - complete:Mail;ID:1536797700083#
+[2018-09-13T08:50:00.073] [INFO] job - start:Monitor;ID:1536799800073#
+[2018-09-13T09:01:00.074] [INFO] job - start:HK;ID:1536800460074#
+[2018-09-13T09:01:10.286] [INFO] job - success:HK;ID:1536800460074;Return:Top10: 40.
+Proportion: 2449.
+#
+[2018-09-13T09:01:10.286] [INFO] job - complete:HK;ID:1536800460074#
+[2018-09-13T15:16:14.972] [INFO] job - success:Monitor;ID:1536799800073;Return:#
+[2018-09-13T15:16:14.972] [INFO] job - complete:Monitor;ID:1536799800073#
+[2018-09-14T08:15:00.085] [INFO] job - start:Mail;ID:1536884100085#
+[2018-09-14T08:15:07.668] [INFO] job - success:Mail;ID:1536884100085;Return:wangyf 1
+zhengy 2
+zhongc 1
+#
+[2018-09-14T08:15:07.668] [INFO] job - complete:Mail;ID:1536884100085#
+[2018-09-14T08:50:00.074] [INFO] job - start:Monitor;ID:1536886200074#
+[2018-09-14T09:01:00.075] [INFO] job - start:HK;ID:1536886860075#
+[2018-09-14T09:01:09.359] [INFO] job - success:HK;ID:1536886860075;Return:Top10: 40.
+Proportion: 2452.
+#
+[2018-09-14T09:01:09.360] [INFO] job - complete:HK;ID:1536886860075#
+[2018-09-14T15:13:24.621] [INFO] job - success:Monitor;ID:1536886200074;Return:#
+[2018-09-14T15:13:24.622] [INFO] job - complete:Monitor;ID:1536886200074#
+[2018-09-15T08:15:00.085] [INFO] job - start:Mail;ID:1536970500085#
+[2018-09-15T08:15:07.468] [INFO] job - success:Mail;ID:1536970500085;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-15T08:15:07.468] [INFO] job - complete:Mail;ID:1536970500085#
+[2018-09-15T08:50:00.075] [INFO] job - start:Monitor;ID:1536972600075#
+[2018-09-15T08:50:04.146] [INFO] job - success:Monitor;ID:1536972600075;Return:#
+[2018-09-15T08:50:04.146] [INFO] job - complete:Monitor;ID:1536972600075#
+[2018-09-15T09:01:00.075] [INFO] job - start:HK;ID:1536973260075#
+[2018-09-15T09:01:00.591] [INFO] job - success:HK;ID:1536973260075;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-15T09:01:00.591] [INFO] job - complete:HK;ID:1536973260075#
+[2018-09-16T08:15:00.085] [INFO] job - start:Mail;ID:1537056900085#
+[2018-09-16T08:15:06.480] [INFO] job - success:Mail;ID:1537056900085;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-16T08:15:06.480] [INFO] job - complete:Mail;ID:1537056900085#
+[2018-09-16T08:50:00.074] [INFO] job - start:Monitor;ID:1537059000074#
+[2018-09-16T08:50:04.388] [INFO] job - success:Monitor;ID:1537059000074;Return:#
+[2018-09-16T08:50:04.388] [INFO] job - complete:Monitor;ID:1537059000074#
+[2018-09-16T09:01:00.076] [INFO] job - start:HK;ID:1537059660076#
+[2018-09-16T09:01:00.574] [INFO] job - success:HK;ID:1537059660076;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-16T09:01:00.574] [INFO] job - complete:HK;ID:1537059660076#
+[2018-09-17T08:15:00.085] [INFO] job - start:Mail;ID:1537143300085#
+[2018-09-17T08:15:08.047] [INFO] job - success:Mail;ID:1537143300085;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-17T08:15:08.047] [INFO] job - complete:Mail;ID:1537143300085#
+[2018-09-17T08:50:00.079] [INFO] job - start:Monitor;ID:1537145400079#
+[2018-09-17T09:01:00.080] [INFO] job - start:HK;ID:1537146060080#
+[2018-09-17T09:01:08.828] [INFO] job - success:HK;ID:1537146060080;Return:Top10: 40.
+Proportion: 2454.
+#
+[2018-09-17T09:01:08.828] [INFO] job - complete:HK;ID:1537146060080#
+[2018-09-17T10:42:19.392] [INFO] job - success:Monitor;ID:1537145400079;Return:#
+[2018-09-17T10:42:19.392] [INFO] job - complete:Monitor;ID:1537145400079#
+[2018-09-18T08:15:00.086] [INFO] job - start:Mail;ID:1537229700085#
+[2018-09-18T08:15:06.156] [INFO] job - success:Mail;ID:1537229700085;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-18T08:15:06.156] [INFO] job - complete:Mail;ID:1537229700085#
+[2018-09-18T08:50:00.078] [INFO] job - start:Monitor;ID:1537231800078#
+[2018-09-18T09:01:00.082] [INFO] job - start:HK;ID:1537232460082#
+[2018-09-18T09:01:10.956] [INFO] job - success:HK;ID:1537232460082;Return:Top10: 40.
+Proportion: 2454.
+#
+[2018-09-18T09:01:10.956] [INFO] job - complete:HK;ID:1537232460082#
+[2018-09-18T15:00:28.694] [INFO] job - success:Monitor;ID:1537231800078;Return:#
+[2018-09-18T15:00:28.694] [INFO] job - complete:Monitor;ID:1537231800078#
+[2018-09-19T08:15:00.089] [INFO] job - start:Mail;ID:1537316100089#
+[2018-09-19T08:15:09.638] [INFO] job - success:Mail;ID:1537316100089;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-19T08:15:09.638] [INFO] job - complete:Mail;ID:1537316100089#
+[2018-09-19T08:50:00.079] [INFO] job - start:Monitor;ID:1537318200079#
+[2018-09-19T09:01:00.080] [INFO] job - start:HK;ID:1537318860080#
+[2018-09-19T09:01:11.149] [INFO] job - success:HK;ID:1537318860080;Return:Top10: 40.
+Proportion: 2454.
+#
+[2018-09-19T09:01:11.149] [INFO] job - complete:HK;ID:1537318860080#
+[2018-09-19T15:00:19.174] [INFO] job - success:Monitor;ID:1537318200079;Return:#
+[2018-09-19T15:00:19.174] [INFO] job - complete:Monitor;ID:1537318200079#
+[2018-09-20T08:15:00.090] [INFO] job - start:Mail;ID:1537402500090#
+[2018-09-20T08:15:09.629] [INFO] job - success:Mail;ID:1537402500090;Return:wangyf 1
+zhengy 2
+zhongc 1
+#
+[2018-09-20T08:15:09.629] [INFO] job - complete:Mail;ID:1537402500090#
+[2018-09-20T08:50:00.078] [INFO] job - start:Monitor;ID:1537404600078#
+[2018-09-20T09:01:00.081] [INFO] job - start:HK;ID:1537405260081#
+[2018-09-20T09:01:17.299] [INFO] job - success:HK;ID:1537405260081;Return:Top10: 40.
+Proportion: 2456.
+#
+[2018-09-20T09:01:17.299] [INFO] job - complete:HK;ID:1537405260081#
+[2018-09-20T15:00:35.801] [INFO] job - success:Monitor;ID:1537404600078;Return:#
+[2018-09-20T15:00:35.801] [INFO] job - complete:Monitor;ID:1537404600078#
+[2018-09-21T08:15:00.092] [INFO] job - start:Mail;ID:1537488900092#
+[2018-09-21T08:15:06.642] [INFO] job - success:Mail;ID:1537488900092;Return:zhengy 2
+zhongc 1
+#
+[2018-09-21T08:15:06.643] [INFO] job - complete:Mail;ID:1537488900092#
+[2018-09-21T08:50:00.078] [INFO] job - start:Monitor;ID:1537491000078#
+[2018-09-21T09:01:00.083] [INFO] job - start:HK;ID:1537491660083#
+[2018-09-21T09:01:10.661] [INFO] job - success:HK;ID:1537491660083;Return:Top10: 20.
+Proportion: 2455.
+#
+[2018-09-21T09:01:10.661] [INFO] job - complete:HK;ID:1537491660083#
+[2018-09-21T15:00:19.731] [INFO] job - success:Monitor;ID:1537491000078;Return:#
+[2018-09-21T15:00:19.733] [INFO] job - complete:Monitor;ID:1537491000078#
+[2018-09-22T08:15:00.286] [INFO] job - start:Mail;ID:1537575300286#
+[2018-09-22T08:15:07.202] [INFO] job - success:Mail;ID:1537575300286;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-22T08:15:07.202] [INFO] job - complete:Mail;ID:1537575300286#
+[2018-09-22T08:50:00.271] [INFO] job - start:Monitor;ID:1537577400271#
+[2018-09-22T08:50:04.363] [INFO] job - success:Monitor;ID:1537577400271;Return:#
+[2018-09-22T08:50:04.363] [INFO] job - complete:Monitor;ID:1537577400271#
+[2018-09-22T09:01:00.266] [INFO] job - start:HK;ID:1537578060266#
+[2018-09-22T09:01:00.875] [INFO] job - success:HK;ID:1537578060266;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-22T09:01:00.876] [INFO] job - complete:HK;ID:1537578060266#
+[2018-09-23T08:15:00.280] [INFO] job - start:Mail;ID:1537661700280#
+[2018-09-23T08:15:07.166] [INFO] job - success:Mail;ID:1537661700280;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-23T08:15:07.166] [INFO] job - complete:Mail;ID:1537661700280#
+[2018-09-23T08:50:00.269] [INFO] job - start:Monitor;ID:1537663800269#
+[2018-09-23T08:50:04.064] [INFO] job - success:Monitor;ID:1537663800269;Return:#
+[2018-09-23T08:50:04.065] [INFO] job - complete:Monitor;ID:1537663800269#
+[2018-09-23T09:01:00.259] [INFO] job - start:HK;ID:1537664460259#
+[2018-09-23T09:01:00.764] [INFO] job - success:HK;ID:1537664460259;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-23T09:01:00.764] [INFO] job - complete:HK;ID:1537664460259#
+[2018-09-24T08:15:00.271] [INFO] job - start:Mail;ID:1537748100271#
+[2018-09-24T08:15:08.612] [INFO] job - success:Mail;ID:1537748100271;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-24T08:15:08.612] [INFO] job - complete:Mail;ID:1537748100271#
+[2018-09-24T08:50:00.270] [INFO] job - start:Monitor;ID:1537750200270#
+[2018-09-24T08:50:04.061] [INFO] job - success:Monitor;ID:1537750200270;Return:#
+[2018-09-24T08:50:04.061] [INFO] job - complete:Monitor;ID:1537750200270#
+[2018-09-24T09:01:00.260] [INFO] job - start:HK;ID:1537750860260#
+[2018-09-24T09:01:00.740] [INFO] job - success:HK;ID:1537750860260;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-24T09:01:00.740] [INFO] job - complete:HK;ID:1537750860260#
+[2018-09-25T08:15:00.270] [INFO] job - start:Mail;ID:1537834500270#
+[2018-09-25T08:15:07.233] [INFO] job - success:Mail;ID:1537834500270;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-25T08:15:07.233] [INFO] job - complete:Mail;ID:1537834500270#
+[2018-09-25T08:50:00.278] [INFO] job - start:Monitor;ID:1537836600277#
+[2018-09-25T09:01:00.260] [INFO] job - start:HK;ID:1537837260260#
+[2018-09-25T09:02:59.554] [INFO] job - success:HK;ID:1537837260260;Return:Top10: 0.
+Proportion: 2455.
+#
+[2018-09-25T09:02:59.554] [INFO] job - complete:HK;ID:1537837260260#
+[2018-09-25T16:13:48.871] [INFO] job - success:Monitor;ID:1537836600277;Return:#
+[2018-09-25T16:13:48.871] [INFO] job - complete:Monitor;ID:1537836600277#
+[2018-09-26T08:15:00.270] [INFO] job - start:Mail;ID:1537920900270#
+[2018-09-26T08:15:09.315] [INFO] job - success:Mail;ID:1537920900270;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-26T08:15:09.316] [INFO] job - complete:Mail;ID:1537920900270#
+[2018-09-26T08:50:00.271] [INFO] job - start:Monitor;ID:1537923000271#
+[2018-09-26T09:01:00.262] [INFO] job - start:HK;ID:1537923660262#
+[2018-09-26T09:01:09.113] [INFO] job - success:HK;ID:1537923660262;Return:Top10: 0.
+Proportion: 2455.
+#
+[2018-09-26T09:01:09.113] [INFO] job - complete:HK;ID:1537923660262#
+[2018-09-26T17:29:38.505] [INFO] job - success:Monitor;ID:1537923000271;Return:#
+[2018-09-26T17:29:38.507] [INFO] job - complete:Monitor;ID:1537923000271#
+[2018-09-27T08:15:00.269] [INFO] job - start:Mail;ID:1538007300269#
+[2018-09-27T08:15:10.182] [INFO] job - success:Mail;ID:1538007300269;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-27T08:15:10.182] [INFO] job - complete:Mail;ID:1538007300269#
+[2018-09-27T08:50:00.271] [INFO] job - start:Monitor;ID:1538009400271#
+[2018-09-27T08:50:04.113] [INFO] job - success:Monitor;ID:1538009400271;Return:#
+[2018-09-27T08:50:04.113] [INFO] job - complete:Monitor;ID:1538009400271#
+[2018-09-27T09:01:00.262] [INFO] job - start:HK;ID:1538010060262#
+[2018-09-27T09:01:21.848] [INFO] job - success:HK;ID:1538010060262;Return:Command failed: python D:/workspace/Creeper/HK.py 
+Traceback (most recent call last):
+  File "D:/workspace/Creeper/HK.py", line 132, in <module>
+    HKEX()
+  File "D:/workspace/Creeper/HK.py", line 98, in HKEX
+    top = parse_html1(html)
+  File "D:/workspace/Creeper/HK.py", line 22, in parse_html1
+    data = json.loads(content.decode('utf-8').split(' = ')[1])
+AttributeError: 'TimeoutError' object has no attribute 'decode'
+#
+[2018-09-27T09:01:21.848] [INFO] job - complete:HK;ID:1538010060262#
+[2018-09-28T08:15:00.271] [INFO] job - start:Mail;ID:1538093700271#
+[2018-09-28T08:15:06.346] [INFO] job - success:Mail;ID:1538093700271;Return:wangyf 1
+zhengy 2
+zhongc 1
+#
+[2018-09-28T08:15:06.346] [INFO] job - complete:Mail;ID:1538093700271#
+[2018-09-28T08:50:00.289] [INFO] job - start:Monitor;ID:1538095800289#
+[2018-09-28T08:50:02.835] [INFO] job - success:Monitor;ID:1538095800289;Return:#
+[2018-09-28T08:50:02.835] [INFO] job - complete:Monitor;ID:1538095800289#
+[2018-09-28T09:01:00.262] [INFO] job - start:HK;ID:1538096460262#
+[2018-09-28T09:01:13.400] [INFO] job - success:HK;ID:1538096460262;Return:Top10: 20.
+Proportion: 2455.
+#
+[2018-09-28T09:01:13.400] [INFO] job - complete:HK;ID:1538096460262#
+[2018-09-29T08:15:00.274] [INFO] job - start:Mail;ID:1538180100274#
+[2018-09-29T08:15:07.602] [INFO] job - success:Mail;ID:1538180100274;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-09-29T08:15:07.602] [INFO] job - complete:Mail;ID:1538180100274#
+[2018-09-29T08:50:00.271] [INFO] job - start:Monitor;ID:1538182200271#
+[2018-09-29T08:50:04.168] [INFO] job - success:Monitor;ID:1538182200271;Return:#
+[2018-09-29T08:50:04.168] [INFO] job - complete:Monitor;ID:1538182200271#
+[2018-09-29T09:01:00.264] [INFO] job - start:HK;ID:1538182860264#
+[2018-09-29T09:01:00.713] [INFO] job - success:HK;ID:1538182860264;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-29T09:01:00.713] [INFO] job - complete:HK;ID:1538182860264#
+[2018-09-30T08:15:00.275] [INFO] job - start:Mail;ID:1538266500275#
+[2018-09-30T08:15:07.101] [INFO] job - success:Mail;ID:1538266500275;Return:wangyf 1
+zhengy 4
+zhongc 2
+#
+[2018-09-30T08:15:07.101] [INFO] job - complete:Mail;ID:1538266500275#
+[2018-09-30T08:50:00.272] [INFO] job - start:Monitor;ID:1538268600272#
+[2018-09-30T08:50:04.394] [INFO] job - success:Monitor;ID:1538268600272;Return:#
+[2018-09-30T08:50:04.394] [INFO] job - complete:Monitor;ID:1538268600272#
+[2018-09-30T09:01:00.269] [INFO] job - start:HK;ID:1538269260269#
+[2018-09-30T09:01:00.755] [INFO] job - success:HK;ID:1538269260269;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-09-30T09:01:00.755] [INFO] job - complete:HK;ID:1538269260269#
+[2018-10-01T08:15:00.278] [INFO] job - start:Mail;ID:1538352900278#
+[2018-10-01T08:15:06.622] [INFO] job - success:Mail;ID:1538352900278;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-10-01T08:15:06.623] [INFO] job - complete:Mail;ID:1538352900278#
+[2018-10-01T08:50:00.273] [INFO] job - start:Monitor;ID:1538355000273#
+[2018-10-01T08:50:04.476] [INFO] job - success:Monitor;ID:1538355000273;Return:#
+[2018-10-01T08:50:04.476] [INFO] job - complete:Monitor;ID:1538355000273#
+[2018-10-01T09:01:00.266] [INFO] job - start:HK;ID:1538355660266#
+[2018-10-01T09:01:00.722] [INFO] job - success:HK;ID:1538355660266;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-01T09:01:00.722] [INFO] job - complete:HK;ID:1538355660266#
+[2018-10-02T08:15:00.273] [INFO] job - start:Mail;ID:1538439300273#
+[2018-10-02T08:15:06.092] [INFO] job - success:Mail;ID:1538439300273;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-10-02T08:15:06.092] [INFO] job - complete:Mail;ID:1538439300273#
+[2018-10-02T08:50:00.277] [INFO] job - start:Monitor;ID:1538441400277#
+[2018-10-02T08:50:04.112] [INFO] job - success:Monitor;ID:1538441400277;Return:#
+[2018-10-02T08:50:04.112] [INFO] job - complete:Monitor;ID:1538441400277#
+[2018-10-02T09:01:00.267] [INFO] job - start:HK;ID:1538442060267#
+[2018-10-02T09:01:00.743] [INFO] job - success:HK;ID:1538442060267;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-02T09:01:00.743] [INFO] job - complete:HK;ID:1538442060267#
+[2018-10-03T08:15:00.277] [INFO] job - start:Mail;ID:1538525700277#
+[2018-10-03T08:15:06.615] [INFO] job - success:Mail;ID:1538525700277;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-10-03T08:15:06.615] [INFO] job - complete:Mail;ID:1538525700277#
+[2018-10-03T08:50:00.281] [INFO] job - start:Monitor;ID:1538527800281#
+[2018-10-03T08:50:04.445] [INFO] job - success:Monitor;ID:1538527800281;Return:#
+[2018-10-03T08:50:04.445] [INFO] job - complete:Monitor;ID:1538527800281#
+[2018-10-03T09:01:00.273] [INFO] job - start:HK;ID:1538528460273#
+[2018-10-03T09:01:00.731] [INFO] job - success:HK;ID:1538528460273;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-03T09:01:00.731] [INFO] job - complete:HK;ID:1538528460273#
+[2018-10-04T08:15:00.276] [INFO] job - start:Mail;ID:1538612100276#
+[2018-10-04T08:15:06.215] [INFO] job - success:Mail;ID:1538612100276;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-10-04T08:15:06.215] [INFO] job - complete:Mail;ID:1538612100276#
+[2018-10-04T08:50:00.281] [INFO] job - start:Monitor;ID:1538614200281#
+[2018-10-04T08:50:04.424] [INFO] job - success:Monitor;ID:1538614200281;Return:#
+[2018-10-04T08:50:04.424] [INFO] job - complete:Monitor;ID:1538614200281#
+[2018-10-04T09:01:00.267] [INFO] job - start:HK;ID:1538614860267#
+[2018-10-04T09:01:00.737] [INFO] job - success:HK;ID:1538614860267;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-04T09:01:00.737] [INFO] job - complete:HK;ID:1538614860267#
+[2018-10-05T08:15:00.282] [INFO] job - start:Mail;ID:1538698500282#
+[2018-10-05T08:15:06.628] [INFO] job - success:Mail;ID:1538698500282;Return:wangyf 1
+zhengy 2
+zhongc 1
+#
+[2018-10-05T08:15:06.628] [INFO] job - complete:Mail;ID:1538698500282#
+[2018-10-05T08:50:00.283] [INFO] job - start:Monitor;ID:1538700600283#
+[2018-10-05T08:50:04.439] [INFO] job - success:Monitor;ID:1538700600283;Return:#
+[2018-10-05T08:50:04.439] [INFO] job - complete:Monitor;ID:1538700600283#
+[2018-10-05T09:01:00.272] [INFO] job - start:HK;ID:1538701260272#
+[2018-10-05T09:01:00.729] [INFO] job - success:HK;ID:1538701260272;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-05T09:01:00.729] [INFO] job - complete:HK;ID:1538701260272#
+[2018-10-06T08:15:00.286] [INFO] job - start:Mail;ID:1538784900286#
+[2018-10-06T08:15:06.778] [INFO] job - success:Mail;ID:1538784900286;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-10-06T08:15:06.778] [INFO] job - complete:Mail;ID:1538784900286#
+[2018-10-06T08:50:00.280] [INFO] job - start:Monitor;ID:1538787000280#
+[2018-10-06T08:50:02.272] [INFO] job - success:Monitor;ID:1538787000280;Return:#
+[2018-10-06T08:50:02.272] [INFO] job - complete:Monitor;ID:1538787000280#
+[2018-10-06T09:01:00.270] [INFO] job - start:HK;ID:1538787660270#
+[2018-10-06T09:01:00.628] [INFO] job - success:HK;ID:1538787660270;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-06T09:01:00.628] [INFO] job - complete:HK;ID:1538787660270#
+[2018-10-07T08:15:00.281] [INFO] job - start:Mail;ID:1538871300281#
+[2018-10-07T08:15:08.089] [INFO] job - success:Mail;ID:1538871300281;Return:wangyf 1
+zhengy 1
+zhongc 1
+#
+[2018-10-07T08:15:08.089] [INFO] job - complete:Mail;ID:1538871300281#
+[2018-10-07T08:50:00.287] [INFO] job - start:Monitor;ID:1538873400287#
+[2018-10-07T08:50:04.462] [INFO] job - success:Monitor;ID:1538873400287;Return:#
+[2018-10-07T08:50:04.463] [INFO] job - complete:Monitor;ID:1538873400287#
+[2018-10-07T09:01:00.276] [INFO] job - start:HK;ID:1538874060275#
+[2018-10-07T09:01:00.764] [INFO] job - success:HK;ID:1538874060275;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-07T09:01:00.765] [INFO] job - complete:HK;ID:1538874060275#
+[2018-10-08T08:15:00.280] [INFO] job - start:Mail;ID:1538957700280#
+[2018-10-08T08:15:09.084] [INFO] job - success:Mail;ID:1538957700280;Return:wangyf 1
+zhongc 3
+zhengy 1
+zhengy 1
+zhongc 1
+#
+[2018-10-08T08:15:09.084] [INFO] job - complete:Mail;ID:1538957700280#
+[2018-10-08T08:50:00.281] [INFO] job - start:Monitor;ID:1538959800281#
+[2018-10-08T09:01:00.272] [INFO] job - start:HK;ID:1538960460272#
+[2018-10-08T09:03:28.102] [INFO] job - success:HK;ID:1538960460272;Return:Top10: 20.
+Proportion: 2455.
+#
+[2018-10-08T09:03:28.102] [INFO] job - complete:HK;ID:1538960460272#
+[2018-10-08T15:03:47.270] [INFO] job - success:Monitor;ID:1538959800281;Return:#
+[2018-10-08T15:03:47.270] [INFO] job - complete:Monitor;ID:1538959800281#
+[2018-10-09T08:15:01.012] [INFO] job - start:Mail;ID:1539044101012#
+[2018-10-09T08:15:10.885] [INFO] job - success:Mail;ID:1539044101012;Return:wangyf 1
+zhongc 3
+zhengy 1
+zhengy 1
+zhongc 1
+#
+[2018-10-09T08:15:10.885] [INFO] job - complete:Mail;ID:1539044101012#
+[2018-10-09T08:50:01.008] [INFO] job - start:Monitor;ID:1539046201008#
+[2018-10-09T09:01:00.991] [INFO] job - start:HK;ID:1539046860991#
+[2018-10-09T09:01:10.245] [INFO] job - success:HK;ID:1539046860991;Return:Top10: 40.
+Proportion: 2455.
+#
+[2018-10-09T09:01:10.245] [INFO] job - complete:HK;ID:1539046860991#
+[2018-10-09T17:30:56.423] [INFO] job - success:Monitor;ID:1539046201008;Return:#
+[2018-10-09T17:30:56.424] [INFO] job - complete:Monitor;ID:1539046201008#
+[2018-10-10T08:15:01.008] [INFO] job - start:Mail;ID:1539130501008#
+[2018-10-10T08:15:11.023] [INFO] job - success:Mail;ID:1539130501008;Return:wangyf 1
+zhongc 3
+zhengy 1
+zhengy 1
+zhongc 1
+#
+[2018-10-10T08:15:11.024] [INFO] job - complete:Mail;ID:1539130501008#
+[2018-10-10T08:50:01.007] [INFO] job - start:Monitor;ID:1539132601007#
+[2018-10-10T09:01:00.992] [INFO] job - start:HK;ID:1539133260992#
+[2018-10-10T09:01:09.956] [INFO] job - success:HK;ID:1539133260992;Return:Top10: 40.
+Proportion: 2455.
+#
+[2018-10-10T09:01:09.956] [INFO] job - complete:HK;ID:1539133260992#
+[2018-10-10T15:00:34.584] [INFO] job - success:Monitor;ID:1539132601007;Return:#
+[2018-10-10T15:00:34.585] [INFO] job - complete:Monitor;ID:1539132601007#
+[2018-10-11T08:15:00.999] [INFO] job - start:Mail;ID:1539216900999#
+[2018-10-11T08:15:09.418] [INFO] job - success:Mail;ID:1539216900999;Return:wangyf 1
+zhongc 3
+zhengy 1
+zhengy 1
+zhongc 1
+#
+[2018-10-11T08:15:09.418] [INFO] job - complete:Mail;ID:1539216900999#
+[2018-10-11T08:50:00.998] [INFO] job - start:Monitor;ID:1539219000998#
+[2018-10-11T09:01:00.992] [INFO] job - start:HK;ID:1539219660992#
+[2018-10-11T09:01:09.970] [INFO] job - success:HK;ID:1539219660992;Return:Top10: 40.
+Proportion: 2455.
+#
+[2018-10-11T09:01:09.970] [INFO] job - complete:HK;ID:1539219660992#
+[2018-10-11T17:30:58.023] [INFO] job - success:Monitor;ID:1539219000998;Return:#
+[2018-10-11T17:30:58.023] [INFO] job - complete:Monitor;ID:1539219000998#
+[2018-10-12T08:15:01.000] [INFO] job - start:Mail;ID:1539303301000#
+[2018-10-12T08:15:10.073] [INFO] job - success:Mail;ID:1539303301000;Return:wangyf 2
+zhongc 3
+zhengy 1
+zhengy 2
+zhongc 1
+#
+[2018-10-12T08:15:10.074] [INFO] job - complete:Mail;ID:1539303301000#
+[2018-10-12T08:50:00.998] [INFO] job - start:Monitor;ID:1539305400997#
+[2018-10-12T09:01:00.993] [INFO] job - start:HK;ID:1539306060993#
+[2018-10-12T09:01:53.221] [INFO] job - success:HK;ID:1539306060993;Return:Top10: 40.
+Proportion: 2455.
+#
+[2018-10-12T09:01:53.221] [INFO] job - complete:HK;ID:1539306060993#
+[2018-10-12T09:53:30.574] [INFO] job - success:Monitor;ID:1539305400997;Return:#
+[2018-10-12T09:53:30.574] [INFO] job - complete:Monitor;ID:1539305400997#
+[2018-10-13T08:15:01.000] [INFO] job - start:Mail;ID:1539389701000#
+[2018-10-13T08:15:10.359] [INFO] job - success:Mail;ID:1539389701000;Return:wangyf 2
+zhongc 3
+zhengy 2
+zhengy 1
+zhongc 1
+#
+[2018-10-13T08:15:10.359] [INFO] job - complete:Mail;ID:1539389701000#
+[2018-10-13T08:50:00.998] [INFO] job - start:Monitor;ID:1539391800998#
+[2018-10-13T08:50:04.454] [INFO] job - success:Monitor;ID:1539391800998;Return:#
+[2018-10-13T08:50:04.454] [INFO] job - complete:Monitor;ID:1539391800998#
+[2018-10-13T09:01:00.997] [INFO] job - start:HK;ID:1539392460997#
+[2018-10-13T09:01:01.492] [INFO] job - success:HK;ID:1539392460997;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-13T09:01:01.492] [INFO] job - complete:HK;ID:1539392460997#
+[2018-10-14T08:15:01.006] [INFO] job - start:Mail;ID:1539476101006#
+[2018-10-14T08:15:09.056] [INFO] job - success:Mail;ID:1539476101006;Return:wangyf 2
+zhongc 3
+zhengy 2
+zhengy 1
+zhongc 1
+#
+[2018-10-14T08:15:09.056] [INFO] job - complete:Mail;ID:1539476101006#
+[2018-10-14T08:50:01.002] [INFO] job - start:Monitor;ID:1539478201002#
+[2018-10-14T08:50:03.385] [INFO] job - success:Monitor;ID:1539478201002;Return:#
+[2018-10-14T08:50:03.385] [INFO] job - complete:Monitor;ID:1539478201002#
+[2018-10-14T09:01:01.003] [INFO] job - start:HK;ID:1539478861003#
+[2018-10-14T09:01:01.502] [INFO] job - success:HK;ID:1539478861003;Return:Top10: 0.
+Proportion: 0.
+#
+[2018-10-14T09:01:01.502] [INFO] job - complete:HK;ID:1539478861003#
+[2018-10-15T08:15:01.005] [INFO] job - start:Mail;ID:1539562501005#
+[2018-10-15T08:15:10.890] [INFO] job - success:Mail;ID:1539562501005;Return:wangyf 2
+zhongc 3
+zhengy 2
+zhengy 1
+zhongc 1
+#
+[2018-10-15T08:15:10.890] [INFO] job - complete:Mail;ID:1539562501005#
+[2018-10-15T08:50:01.000] [INFO] job - start:Monitor;ID:1539564601000#
+[2018-10-15T09:01:00.997] [INFO] job - start:HK;ID:1539565260997#
+[2018-10-15T09:01:11.919] [INFO] job - success:HK;ID:1539565260997;Return:Top10: 40.
+Proportion: 2455.
+#
+[2018-10-15T09:01:11.919] [INFO] job - complete:HK;ID:1539565260997#
+[2018-10-15T15:00:25.557] [INFO] job - success:Monitor;ID:1539564601000;Return:#
+[2018-10-15T15:00:25.557] [INFO] job - complete:Monitor;ID:1539564601000#
+[2018-10-16T08:15:01.003] [INFO] job - start:Mail;ID:1539648901003#
+[2018-10-16T08:15:11.084] [INFO] job - success:Mail;ID:1539648901003;Return:wangyf 2
+zhongc 3
+zhengy 2
+zhengy 1
+zhongc 1
+#
+[2018-10-16T08:15:11.084] [INFO] job - complete:Mail;ID:1539648901003#
+[2018-10-16T08:50:01.003] [INFO] job - start:Monitor;ID:1539651001003#
+[2018-10-16T09:01:00.998] [INFO] job - start:HK;ID:1539651660998#
+[2018-10-16T09:01:17.201] [INFO] job - success:HK;ID:1539651660998;Return:Top10: 40.
+Proportion: 2455.
+#
+[2018-10-16T09:01:17.201] [INFO] job - complete:HK;ID:1539651660998#
+[2018-10-16T16:16:25.399] [INFO] job - success:Monitor;ID:1539651001003;Return:#
+[2018-10-16T16:16:25.399] [INFO] job - complete:Monitor;ID:1539651001003#
+[2018-10-17T08:15:01.003] [INFO] job - start:Mail;ID:1539735301003#
+[2018-10-17T08:15:11.825] [INFO] job - success:Mail;ID:1539735301003;Return:wangyf 2
+zhongc 3
+zhengy 2
+zhengy 1
+zhongc 1
+#
+[2018-10-17T08:15:11.825] [INFO] job - complete:Mail;ID:1539735301003#
+[2018-10-17T08:50:01.003] [INFO] job - start:Monitor;ID:1539737401003#
+[2018-10-17T08:50:03.674] [INFO] job - success:Monitor;ID:1539737401003;Return:#
+[2018-10-17T08:50:03.674] [INFO] job - complete:Monitor;ID:1539737401003#
+[2018-10-17T09:01:00.902] [INFO] job - start:HK;ID:1539738060902#
+[2018-10-17T09:01:13.957] [INFO] job - success:HK;ID:1539738060902;Return:Top10: 20.
+Proportion: 2456.
+#
+[2018-10-17T09:01:13.957] [INFO] job - complete:HK;ID:1539738060902#

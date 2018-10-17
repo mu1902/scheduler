@@ -1,0 +1,11 @@
+{
+    "name": "Mail2",
+    "plan": "0 20 8 * * *",
+    "gpara": {
+        "dir": "D:/workspace/Fund/code/python"
+    },
+    "type": "python",
+    "program": "D:/workspace/Fund/code/python/stockpool_mail.py",
+    "para": "",
+    "expara": {}
+}
