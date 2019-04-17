@@ -51,19 +51,19 @@ agenda.on('start', (job) => {
     job.attrs.data["id"] = (new Date()).valueOf();
     job.attrs.data["result"] = "";
     job_log.info('start:' + job.attrs.name + ';ID:' + job.attrs.data["id"] + '#');
-})
+});
 
 agenda.on('complete', (job) => {
     job_log.info('complete:' + job.attrs.name + ';ID:' + job.attrs.data["id"] + '#');
-})
+});
 
 agenda.on('success', (job) => {
     job_log.info('success:' + job.attrs.name + ';ID:' + job.attrs.data["id"] + ';Return:' + job.attrs.data["result"] + '#');
-})
+});
 
 agenda.on('fail', (err, job) => {
     job_log.error('fail:' + job.attrs.name + ';ID:' + job.attrs.data["id"] + ';Return:' + err + '#');
-})
+});
 
 function graceful() {
     agenda.stop(() => {

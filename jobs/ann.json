@@ -1,0 +1,11 @@
+{
+    "name": "Announcement",
+    "plan": "0 1 7,11 * * *",
+    "gpara": {
+        "dir": "D:/workspace/Creeper"
+    },
+    "type": "python",
+    "program": "D:/workspace/Creeper/announcement.py",
+    "para": "",
+    "expara": {}
+}
