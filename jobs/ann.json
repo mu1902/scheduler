@@ -1,6 +1,6 @@
 {
     "name": "Announcement",
-    "plan": "0 1 7,11 * * *",
+    "plan": "0 1 7,12 * * *",
     "gpara": {
         "dir": "D:/workspace/Creeper"
     },
