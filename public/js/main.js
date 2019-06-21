@@ -13,12 +13,14 @@ jQuery(function () {
             // [2017-12-14T11:15:32.065] [INFO] job - success:test;ID:1513221332015;Return:test from python.
             var line = {};
             if (log) {
-                line["Name"] = log.split(' - ')[1].split(';')[0].split(':')[1];
-                line["ID"] = log.split(' - ')[1].split(';')[1].split(':')[1];
-                line["State"] = log.split(' - ')[1].split(';')[0].split(':')[0];
-                line["Time"] = log.split(' - ')[0].slice(0, 25);
-                line["Return"] = log.split(' - ')[1].split(';').length > 2 ? log.split(' - ')[1].split(';')[2].slice(7) : "";
-                data["_logs"].push(line);
+                if (log.split(' - ').length > 1) {
+                    line["Name"] = log.split(' - ')[1].split(';')[0].split(':')[1];
+                    line["ID"] = log.split(' - ')[1].split(';')[1].split(':')[1];
+                    line["State"] = log.split(' - ')[1].split(';')[0].split(':')[0];
+                    line["Time"] = log.split(' - ')[0].slice(0, 25);
+                    line["Return"] = log.split(' - ')[1].split(';').length > 2 ? log.split(' - ')[1].split(';')[2].slice(7) : "";
+                    data["_logs"].push(line);
+                }
             }
         });
 
